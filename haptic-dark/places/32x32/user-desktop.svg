@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="desktop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E88E5"/> <!-- Blue 600 -->
+      <stop offset="100%" style="stop-color:#1976D2"/> <!-- Blue 700 -->
+    </linearGradient>
+    <style type="text/css">
+      .desktop { fill: url(#desktop) }
+      .panel { fill: #90CAF9 /* Blue 200 */ }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <rect class="desktop" x="3" y="6" width="26" height="20" rx="2" ry="2"/>
+  <path class="panel" d="m 8,22 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 3 h -16 z"/>
+  <path class="lighten" d="m 3,8 a 2,2 0 0 1 2,-2 h 22 a 2,2 0 0 1 2,2 a 2,1 0 0 0 -2,-1 h -22 a 2,1 0 0 0 -2,1 z"/>
+  <path class="darken" d="m 3,24 a 2,1 0 0 0 2,1 h 22 a 2,1 0 0 0 2,-1 a 2,2 0 0 1 -2,2 h -22 a 2,2 0 0 1 -2,-2 z"/>
+</svg>

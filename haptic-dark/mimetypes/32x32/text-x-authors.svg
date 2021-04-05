@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="light-background-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.125"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="kinked-edge" x1="0%" y1="100%" x2="50%" y2="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0.25"/>
+    </linearGradient>
+    <style type="text/css">
+      .document-background { fill: #E0E0E0 /* Gray 300 */ }
+      .symbol { fill: #616161 /* Gray 700 */ }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Document -->
+  <path class="document-background" d="m 8,3 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 l -8,-8 z"/>
+  <path style="fill:url(#light-background-overlay)" d="m 8,3 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 h -6 a 2,2 0 0 1 -2,-2 v -6"/>  
+  <path class="lighten" d="m 8,3 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 10 v -1 z"/>
+  <path class="darken" d="m 8,28 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+
+  <g transform="translate(18,3)">
+    <path style="fill:url(#kinked-edge)" d="m 0,0 v 6 a 2,2 0 0 0 2,2h 6 z"/>
+    <path class="darken" d="m 0,0 l -1,1 v 6 a 3,3 0 0 0 3,3 h 4 l 2,-2 h -6 a 2,2 0 0 1 -2,-2"/>
+    <path class="darken" d="m 0,6 v 1 a 2,2 0 0 0 2,2 h 5 l 1,-1 h -6 a 2,2 0 0 1 -2,-2 "/>
+  </g>
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(8,12)">
+    <g transform="scale(0.6667)">
+      <circle cx="9" cy="8" r="4"/>
+      <path d="M9,13c-2.67,0-8,1.34-8,4v2c0,0.55,0.45,1,1,1h14c0.55,0,1-0.45,1-1v-2 C17,14.34,11.67,13,9,13z"/>
+      <path d="M15,12c2.21,0,4-1.79,4-4c0-2.21-1.79-4-4-4c-0.47,0-0.91,0.1-1.33,0.24 C14.5,5.27,15,6.58,15,8s-0.5,2.73-1.33,3.76C14.09,11.9,14.53,12,15,12z"/>
+      <path d="M16.67,13.13C18.04,14.06,19,15.32,19,17v3h3c0.55,0,1-0.45,1-1v-2 C23,14.82,19.43,13.53,16.67,13.13z"/>
+    </g>
+  </g>
+</svg>

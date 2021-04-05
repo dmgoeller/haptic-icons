@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style type="text/css">
+      .symbol-color { color: #90CAF9 /* Blue 200 */ }      
+    </style>
+  </defs>
+  <g class="symbol-color" transform="translate(12,12)">
+    <path style="fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:bevel"
+          d="M -4.5,-3.33 -9.5,0 -4.5,3.33 M 4.5,-3.33 9.5,0 4.5,3.33"/>
+
+    <path style="fill:currentColor" d="M -1.05,0 l 2.33,-7 h 2.1 l -4.66,14 h -2.1"/>
+  </g>
+</svg>

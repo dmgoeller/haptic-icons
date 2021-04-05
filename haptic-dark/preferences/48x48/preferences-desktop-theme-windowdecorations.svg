@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="window-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="titlebar-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="titlebar-button" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <style type="text/css">
+      .window-border { fill: #9E9E9E }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Window -->
+  <path style="fill:url(#window-background)" d="m 5,12 a 2,2 0 0 0 -2,2 v 26 h 42 v -26"/>
+  <rect class="window-border" x="3" y="20" width="1" height="20"/>
+
+  <!-- Titlebar -->
+  <path style="fill:url(#titlebar-background)" d="m 5,8 a 2,2 0 0 0 -2,2 v 10 h 42 v -12 "/>
+  <path style="fill:url(#titlebar-button)"
+        d="m 6,14 a 3,3 0 0 1 6,0 a 3,3 0 0 1 -6,0
+           m 9,0 a 3,3 0 0 1 6,0 a 3,3 0 0 1 -6,0
+           m 9,0 a 3,3 0 0 1 6,0 a 3,3 0 0 1 -6,0"/>
+
+  <path class="lighten" d="m 5,8 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 40 v -1"/>
+</svg>

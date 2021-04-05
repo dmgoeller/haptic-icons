@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="package-front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A1887F"/> <!-- Brown 300 -->
+      <stop offset="100%" style="stop-color:#8D6E63"/> <!-- Brown 400 -->
+    </linearGradient>
+    <linearGradient id="package-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#795548"/> <!-- Brown 500 -->
+      <stop offset="100%" style="stop-color:#8D6E63"/> <!-- Brown 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <path style="fill:url(#package-top)" d="m 8.67,4 l -2.67,8 h 20 l -2.67,-8"/>
+  <rect style="fill:url(#package-front)" x="6" y="12" width="20" height="16"/>
+  <rect class="lighten" x="6" y="12" width="20" height="1"/>
+  <rect class="darken" x="6" y="27" width="20" height="1"/>
+</svg>

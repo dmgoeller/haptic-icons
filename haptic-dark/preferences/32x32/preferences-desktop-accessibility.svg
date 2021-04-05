@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3"/> <!-- Blue 500 -->
+      <stop offset="100%" style="stop-color:#1976D2"/> <!-- Blue 700 -->
+    </linearGradient>
+    <style type="text/css">
+      .symbol { fill: white }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <g transform="translate(16,16)">
+    <circle style="fill:url(#background)" r="13"/>
+    <path class="lighten" d="m 13,0 a 13,13 0 0 0 -26,0 a 13,12 0 0 1 26,0"/>
+    <path class="darken" d="m 13,0 a 13,13 0 0 1 -26,0 a 13,12 0 0 0 26,0"/>
+  </g>
+  
+  <!-- Symbol -->
+  <path class="symbol" transform="translate(4,4)"
+        d="M12 2c1.1 0 2 .9 2 2s-.9 2-2 2-2-.9-2-2 .9-2 2-2z
+           m8 7h-5v12c0 .55-.45 1-1 1s-1-.45-1-1v-5h-2v5c0 .55-.45 1-1 1s-1-.45-1-1V9H4c-.55 0-1-.45-1-1s.45-1 1-1h16c.55 0 1 .45 1 1s-.45 1-1 1z"/>
+</svg>

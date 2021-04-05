@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <linearGradient id="package-front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFCDD2"/> <!-- Red 100 -->
+      <stop offset="100%" style="stop-color:#EF9A9A"/> <!-- Red 200 -->
+    </linearGradient>
+    <linearGradient id="package-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E57373"/> <!-- Red 300 -->
+      <stop offset="100%" style="stop-color:#EF9A9A"/> <!-- Red 200 -->
+    </linearGradient>
+  </defs>
+  <g transform="translate(-1,-1)">
+    <path style="fill:url(#package-top)" d="m 6,3 l -1.67,5 h 15.33 l -1.67,-5"/>
+    <rect style="fill:url(#package-front)" x="4" y="9" width="16" height="12"/>
+  </g>
+</svg>

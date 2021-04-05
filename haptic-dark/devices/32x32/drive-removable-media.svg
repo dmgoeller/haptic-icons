@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="drive-top" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="drive-front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="led-green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8F5E9"/> <!-- Green 50 -->
+      <stop offset="100%" style="stop-color:#A5D6A7"/> <!-- Green 200 -->
+    </linearGradient>
+    <linearGradient id="symbol" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#616161"/> <!-- Gray 700 -->
+    </linearGradient>
+    <style type="text/css">
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Drive top -->
+  <path style="fill:url(#drive-top)" d="m 3,22 a 2,2 0 0 1 2,-2 h 22 a 2,2 0 0 1 2,2 l -2.33,-14 c -0.1667,-1 -0.9,-2 -2,-2 h -17.33 c -0.9,0 -1.833,1 -2,2"/>
+  <!--<path class="lighten" d="m 5,19 a 2,2 0 0 0 -1.65,0.9 l -0.35,2.1 a 2,2 0 0 1 2,-2 h 22 a 2,2 0 0 1 2,2 l -0.35,-2.1 a 2,2 0 0 0 -1.65,-0.9"/>-->
+
+  <!-- Drive front -->
+  <path style="fill:url(#drive-front)" d="m 5,20 a 2,2 0 0 0 -2,2 v 2 a 2,2 0 0 0 2,2 h 22 a 2,2 0 0 0 2,-2 v -2 a 2,2 0 0 0 -2,-2 z"/>
+  <path class="darken" d="m 5,20 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 22 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <circle style="fill:url(#led-green)" cx="7" cy="23" r="1"/>
+
+  <!-- Symbol -->
+  <path style="fill:url(#symbol)" d="M 10.36,12.2 l 5.64,-4 5.64,4 z M 10,16 l 0.18,-1.99 h 11.64 l 0.18,1.99 z"/>
+</svg>

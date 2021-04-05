@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="dark-background-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:black;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:black;stop-opacity:0.125"/>
+    </linearGradient>
+    <linearGradient id="kinked-edge" x1="0%" y1="100%" x2="50%" y2="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0.25"/>
+    </linearGradient>
+    <style type="text/css">
+      .document-background { fill: #1E88E5 /* Blue 600 */ }
+      .symbol { fill: #E3F2FD /* Blue 50 */ }
+      .lighten-strongly { fill: white; fill-opacity: 0.25 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Document -->
+  <path class="document-background" d="m 8,3 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 l -8,-8 z"/>
+  <path style="fill:url(#dark-background-overlay)" d="m 8,3 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 h -6 a 2,2 0 0 1 -2,-2 v -6"/>
+  <path class="lighten-strongly" d="m 8,3 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 10 v -1 z"/>
+  <path class="darken" d="m 8,28 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+
+  <g transform="translate(18,3)">
+    <path style="fill:url(#kinked-edge)" d="m 0,0 v 6 a 2,2 0 0 0 2,2h 6 z"/>
+    <path class="darken" d="m 0,0 l -1,1 v 6 a 3,3 0 0 0 3,3 h 4 l 2,-2 h -6 a 2,2 0 0 1 -2,-2"/>
+    <path class="darken" d="m 0,6 v 1 a 2,2 0 0 0 2,2 h 5 l 1,-1 h -6 a 2,2 0 0 1 -2,-2 "/>
+  </g>
+
+  <!-- Symbol -->
+  <g class="symbol">
+    <path d="m 17.28,17.68 v 1.6 h -2.51 v 6.72 h -1.87 v -6.72 h -2.51 v -1.6 z"/>
+    <path d="m 20.74,24.57 q 0.4,0 0.65,-0.1 0.27,-0.1 0.42,-0.18 0.16,-0.12 0.22,-0.27 0.1,-0.16 0.1,-0.35 0,-0.41 -0.39,-0.67 -0.38,-0.28 -1.32,-0.59 -0.4,-0.15 -0.81,-0.33 -0.41,-0.19 -0.73,-0.46 -0.33,-0.29 -0.53,-0.69 -0.21,-0.41 -0.21,-0.98 0,-0.58 0.22,-1.03 0.22,-0.47 0.61,-0.8 0.4,-0.32 0.96,-0.49 0.57,-0.18 1.27,-0.18 0.84,0 1.46,0.18 0.61,0.18 1,0.4 l -0.54,1.47 q -0.34,-0.18 -0.78,-0.31 -0.42,-0.14 -1.02,-0.14 -0.67,0 -0.97,0.19 -0.29,0.18 -0.29,0.56 0,0.23 0.11,0.39 0.11,0.15 0.3,0.29 0.21,0.12 0.46,0.22 0.26,0.1 0.57,0.21 0.65,0.24 1.13,0.48 0.48,0.23 0.79,0.54 0.33,0.31 0.48,0.73 0.16,0.42 0.16,1.02 0,1.16 -0.82,1.81 -0.81,0.64 -2.46,0.64 -0.55,0 -0.99,-0.1 -0.45,-0.1 -0.79,-0.16 -0.34,-0.1 -0.59,-0.2 -0.24,-0.11 -0.41,-0.21 l 0.53,-1.49 q 0.37,0.21 0.91,0.38 0.55,0.15 1.34,0.15 z"/>
+  </g>
+  <!--
+  <text style="font-family:Ubuntu;font-size:12px;font-weight:bold;text-anchor:end" x="24.5" y="26">TS</text>
+  -->
+</svg>

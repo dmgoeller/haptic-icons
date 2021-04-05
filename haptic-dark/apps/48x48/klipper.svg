@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="board" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#616161"/> <!-- Gray 700 -->
+    </linearGradient>
+    <linearGradient id="clip" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Board -->
+  <path style="fill:url(#board)" d="m 8,6 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 32 a 2,2 0 0 0 2,-2 v -36 a 2,2 0 0 0 -2,-2"/>
+  <path class="lighten" d="M 8,6 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 32 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2 "/>
+  <path class="darken" d="m 8,45 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 32 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+
+  <!-- Clip -->
+  <path class="darken" d="m 13,6 v 9 a 3,3 0 0 0 3,3 h 16 a 3,3 0 0 0 3,-3 v -9"/>
+  <path class="darken" d="m 16,16 a 2,2 0 0 1 -2,-2 v 1 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -1 a 2,2 0 0 1 -2,2"/>
+  <path style="fill:url(#clip)"
+        d="m 14,6 v 8 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -8 h -6 a 4,4 0 0 0 -8,0 z
+                 m 10,-2 a 2,2 0 0 1 0,4 a 2,2 0 0 1 0,-4"/>
+</svg>

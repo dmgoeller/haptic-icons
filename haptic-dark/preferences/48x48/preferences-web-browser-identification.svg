@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="window-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="titlebar-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="titlebar-button" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <linearGradient id="toolbar-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 600 -->
+    </linearGradient>
+    <style type="text/css">
+      .window-border { fill: none }
+      .toolbar-field { fill: #E0E0E0 }
+      .symbol { fill: #E0E0E0 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-very-strongly { fill: black; fill-opacity: 0.375 }
+    </style>
+  </defs>
+
+  <!-- Web browser -->
+  <path style="fill:url(#window-background)" d="m 5,6 a 2,2 0 0 0 -2,2 v 32 a 2,2 0 0 0 2,2 h 21.78 a 11,11 0 0 1 18.22,-12.32  v -21.68 a 2,2 0 0 0 -2,-2"/>
+  <path class="window-border" d="m 4,22 h -1 v 18 a 2,2 0 0 0 2,2 h 21.78 a 11,11 0 0 1 -0.58,-1 h -21.2 a 1,1 0 0 1 -1,-1 z m 41,0 h -1 v 6.55 a 11,11 0 0 1 1,1.23"/>
+  <path style="fill:url(#titlebar-background)" d="m 5,6 a 2,2 0 0 0 -2,2 v 6 h 42 v -6 a 2,2 0 0 0 -2,-2"/>
+  <path style="fill:url(#titlebar-button)"
+        d="m 5,10 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0
+           m 6,0 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0
+           m 6,0 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0"/>
+
+  <path style="fill:url(#toolbar-background)" d="m 3,14 v 8 h 42 v -8"/>
+  <path class="toolbar-field" d="m 9,16 a 1,1 0 0 0 -1,1 v 2 a 1,1 0 0 0 1,1 h 30 a 1,1 0 0 0 1,-1 v -2 a 1,1 0 0 0 -1,-1"/>
+  <path class="darken-very-strongly" d="m 9,16 a 1,1 0 0 0 -1,1 h 32 a 1,1 0 0 0 -1,-1"/>
+
+  <path class="lighten" d="m 5,6 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 38 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 5,41 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 21.78 a 11,11 0 0 1 -0.58,-1"/>
+
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(36,36)">
+    <circle style="fill-opacity:0.25" r="9"/>
+    <circle cy="-3" r="3.75"/>
+    <path d="M -7.8,4.5 A 9,9 0 0 0 7.8,4.5 A 9,4.5 0 0 0 -7.8,4.5"/>
+  </g>
+</svg>

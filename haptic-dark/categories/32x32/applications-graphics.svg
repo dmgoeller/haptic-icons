@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="foreground" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+    </linearGradient>
+    <linearGradient id="background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161;stop-opacity:0.75"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#424242;stop-opacity:0.75"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+  </defs>
+  <path style="fill:url(#border)"
+        d="m 4,4 a 2,2 0 0 0 -2,2 v 20 a 2,2 0 0 0 2,2 h 24 a 2,2 0 0 0 2,-2 v -20 a 2,2 0 0 0 -2,-2 z
+           m 0,2 h 24 v 20 h -24"/>
+
+  <g transform="translate(4,6)">
+    <rect style="fill:url(#background)" width="24" height="20"/>
+    <g style="fill:url(#foreground)">
+      <circle cx="6" cy="6" r="3"/>
+      <path d="m 1,19 l 6,-6 l 6,6"/>
+      <path style="fill-opacity:0.75" d="m 14,19 l -3.5,-3.5 4.5,-4.5 8,8"/>
+    </g>
+  </g>
+</svg>

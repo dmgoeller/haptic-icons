@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="surface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="mouse-button" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .lighten-strongly { fill: white; fill-opacity: 0.25 }
+      .lighten-very-strongly { fill: white; fill-opacity: 0.375 }
+      .darken-strongly { fill:black; fill-opacity: 0.25 }
+      .darken-very-strongly { fill:black; fill-opacity: 0.375 }
+    </style>
+  </defs>
+
+  <!-- Touchpad -->
+  <g transform="translate(3,3)">
+    <path style="fill:url(#surface)" d="m 2,0 a 2,2 0 0 0 -2,2 v 17 h 26 v -17 a 2,2 0 0 0 -2,-2 z"/>
+    <path class="lighten-strongly" d="m 2,0 a 2,2 0 0 0 -2,2 v 17 l 1,-1 v -16 a 1,1 0 0 1 1,-1 h 22 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+    <path class="darken-strongly" d="m 1,18 l -1,1 h 26 v -17 a 2,1 0 0 0 -1,-0.865 v 16.865"/>
+  </g>
+
+  <!-- Left mouse button -->
+  <g transform="translate(3,22)">
+    <path style="fill:url(#mouse-button)" d="m 0,0 v 5 a 2,2 0 0 0 2,2 h 11 v -7 z"/>
+    <path class="lighten-very-strongly" d="m 0,0 v 5 a 2,1 0 0 0 1,0.865 v -4.865 h 11 l 1,-1"/>
+    <path class="darken-very-strongly" d="m 2,6 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 11 v -7 l -1,1 v 5"/>
+  </g>
+
+  <!-- Right mouse button -->
+  <g transform="translate(16,22)">
+    <path style="fill:url(#mouse-button)" d="m 0,0 v 7 h 11 a 2,2 0 0 0 2,-2 v -5 z"/>
+    <path class="lighten-very-strongly" d="m 0,0 v 7 l 1,-1 v -5 h 11 l 1,-1"/>
+    <path class="darken-very-strongly" d="m 1,6 l -1,1 h 11 a 2,2 0 0 0 2,-2 v -5 l -1,1 v 4 a 1,1 0 0 1 -1,1"/>
+  </g>
+</svg>

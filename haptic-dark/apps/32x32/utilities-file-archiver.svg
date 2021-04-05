@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="left-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F4511E"/> <!-- Deep orange 500 -->
+      <stop offset="100%" style="stop-color:#E64A19"/> <!-- Deep orange 700 -->
+    </linearGradient>
+    <linearGradient id="right-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BCD4"/> <!-- Cyan 500 -->
+      <stop offset="100%" style="stop-color:#0097A7"/> <!-- Cyan 700 -->
+    </linearGradient>
+    <linearGradient id="zip-puller" x1="0%" y1="100%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white"/>
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+    </linearGradient>
+    <style type="text/css">
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <path style="fill:url(#left-background)" d="m 6,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 18 v -40"/>
+  <path style="fill:url(#right-background)" d="m 24,4 v 40 h 18 a 2,2 0 0 0 2,-2 v -36 a 2,2 0 0 0 -2,-2"/>
+
+  <!-- Zipper -->
+  <path class="darken-strongly"
+        d="m 18,4 v 40 h 12 v -40 z
+           m 2,4 h 4 v 3 h -4 m 4,0 h 4 v 3 h -4
+           m -4,0 h 4 v 3 h -4 m 4,0 h 4 v 3 h -4
+           m -4,0 h 4 v 3 h -4 m 4,0 h 4 v 3 h -4
+           m -4,0 h 4 v 3 h -4 m 4,0 h 4 v 3 h -4
+           m -4,0 h 4 v 3 h -4 m 4,0 h 4 v 3 h -4
+           m -4,0 h 4 v 3 h -4 m 4,0 h 4 v 3 h -4"/>
+
+  <path class="darken" d="m 31,21 a 7,7 0 0 1 -14,0 v -9 a 7,7 0 0 1 14,0 z m -4,-1 a 3,3 0 0 0 -6,0 a 3,3 0 0 0 6,0"/>
+  <path class="darken" d="m 30,20 a 6,6 0 0 1 -12,0 a 6,7 0 0 0 12,0 m -2,0 a 4,3 0 0 0 -8,0 a 4,4 0 0 1 8,0"/>
+  <path style="fill:url(#zip-puller)" d="m 30,20 a 6,6 0 0 1 -12,0 v -8 a 6,6 0 0 1 12,0 z m -10,0 a 4,4 0 0 0 8,0 a 4,4 0 0 0 -8,0"/>
+
+  <!-- Borders -->
+  <path class="lighten" d="m 6,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 36 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 6,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style type="text/css">
+      .symbol { fill: #A5D6A7 /* Green 200 */ }
+    </style>
+  </defs>
+  <g class="symbol" transform="translate(-1,-1)">
+    <path d="m 4,4 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 z
+             m 0,4 h 16 v 10 h -16 z
+             m 0,-2 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0
+             m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0
+             m 3,0 a 1,1 0 0 1 2,0 a 1,1 0 0 1 -2,0"/>
+  </g>
+</svg>

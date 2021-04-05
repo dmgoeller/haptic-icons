@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="waste-paper-bin-outside" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="45%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/>
+    </linearGradient>
+    <linearGradient id="waste-paper-bin-inside" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#757575"/> <!-- Gray 600 -->
+      <stop offset="55%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#757575"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Waste paper bin -->
+  <path style="fill:url(#waste-paper-bin-inside)" d="m 6,8 a 10,3.333 0 0 1 20,0 a 10,3.333 0 0 1 -20,0"/>
+  <path class="darken" d="M 16.29 4.668 A 10 3.333 0 0 0 6 8 A 10 3.333 0 0 0 6.117 8.5 A 10 3.333 0 0 1 25.87 8.5 A 10 3.333 0 0 0 26 8 A 10 3.333 0 0 0 16.29 4.668 z"/>
+
+  <path style="fill:url(#waste-paper-bin-outside)" d="m 6,8 a 10,3.333 0 0 0 20,0 l -2.5,18 c -0.48,3.87 -14.52,3.87 -15,0"/>
+  <path class="darken" d="M 6 8 L 6.236 9.705 A 10 3.333 0 0 0 25.76 9.713 L 26 8 A 10 3.333 0 0 1 6 8 z"/>
+
+  <!-- Paper -->
+  <path style="fill:url(#paper)" d="M 20.38 1.932 A 1 1 0 0 0 20.01 2.01 L 8.928 6.602 A 1 1 0 0 0 8.385 7.906 L 9.467 10.52 A 10 3.333 0 0 0 24.34 9.834 L 21.32 2.551 A 1 1 0 0 0 20.38 1.932 z"/>
+  <path class="darken" d="M 13.29 4.793 A 10 3.333 0 0 0 8.018 5.998 A 2 2 0 0 0 7.461 8.289 L 8.203 10.08 A 10 3.333 0 0 0 9.465 10.51 L 8.385 7.906 A 1 1 0 0 1 8.928 6.602 L 13.29 4.793 z M 22.54 5.484 L 24.34 9.836 A 10 3.333 0 0 0 25.2 9.309 L 23.79 5.918 A 10 3.333 0 0 0 22.54 5.484 z"/>
+</svg>

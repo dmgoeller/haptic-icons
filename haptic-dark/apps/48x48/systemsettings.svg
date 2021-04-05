@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="gear" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="toggle-on-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2"/> <!-- Blue 700 -->
+      <stop offset="100%" style="stop-color:#1565C0"/> <!-- Blue 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-off-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-handle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .gear-inner-circle { fill: #424242 /* Gray 800 */ }
+      .toggle-off-background { fill: url(#toggle-off-background) }
+      .toggle-on-background { fill: url(#toggle-on-background) }
+      .toggle-border { fill: #E0E0E0 }
+      .toggle-handle { fill: url(#toggle-handle) }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Gear -->
+  <path class="gear-inner-circle"
+        d="M 23 10 A 13 13 0 0 0 19.78 35.58 A 8 8 0 0 1 21.8 32.92
+           A 10 10 0 0 1 23 13 A 10 10 0 0 1 29 15 L 33.24 15 A 13 13 0 0 0 23 10 z"/>
+
+  <path style="fill:url(#gear)"
+        d="M 21 3 L 18.7 7.607 A 16 16 0 0 0 15.16 9.072
+           L 10.27 7.441 L 7.439 10.27 L 9.068 15.15 A 16 16 0 0 0 7.611 18.7
+           L 3 21 L 3 25 L 7.59 27.29 A 16 16 0 0 0 8.936 30.6
+           L 7.221 35.45 L 10 38.33 L 14.91 36.79 A 16 16 0 0 0 18.7 38.39
+           L 19.01 39.01 A 8 8 0 0 1 20.27 34.67 A 12 12 0 0 1 23 11 A 12 12 0 0 1 31.93 15
+           L 36.97 15 L 38.55 10.27 L 35.73 7.439 L 30.85 9.066 A 16 16 0 0 0 27.3 7.605 L 25 3 L 21 3 z
+           M 23 12 A 11 11 0 0 0 20.94 33.79 A 8 8 0 0 1 23.13 32 A 9 9 0 0 1 23 32 A 9 9 0 0 1 23 14 A 9 9 0 0 1 27.1 15 L 30.54 15 A 11 11 0 0 0 23 12 z"/>
+
+  <!-- Toggles -->
+  <g transform="translate(17,15)" >
+    <path class="toggle-off-background" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+    <path class="toggle-border" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+    <path class="darken" d="m 26.5,8 a 4.5,4.5 0 0 0 -4.5,-4.5 h -12 a 4.5,4.5 0 0 0 0,9 a 4.5,4.5 0 0 0 2.8,-8 h 9.2 a 4.5,3.5 0 0 1 4.5,3.5"/>
+    <circle class="toggle-handle" cx="10" cy="8" r="3.5"/>
+  </g>
+  <g transform="translate(17,31)">
+    <path class="toggle-on-background" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+    <path class="toggle-border" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+    <path class="darken" d="m 5.5,8 a 4.5,4.5 0 0 1 4.5,-4.5 h 12 a 4.5,4.5 0 0 1 0,9 a 4.5,4.5 0 0 1 -2.8,-8 h -9.2 a 4.5,3.5 0 0 0 -4.5,3.5"/>
+    <circle class="toggle-handle" cx="22" cy="8" r="3.5"/>
+  </g>
+</svg>

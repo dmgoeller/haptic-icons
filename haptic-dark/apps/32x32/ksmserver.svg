@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="monitor-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="login-screen-background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9C27B0"/> <!-- Purple 500 -->
+      <stop offset="100%" style="stop-color:#283593"/> <!-- Indigo 800 -->
+    </linearGradient>
+    <style type="text/css">
+      .login-screen-foreground { fill: white; fill-opacity: 0.75 }
+      .monitor-stand { fill: #808080 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Monitor -->
+  <path style="fill:url(#monitor-border)" d="m 4,6 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 24 a 2,2 0 0 0 2,-2 v -16 a 2,2 0 0 0 -2,-2 z m 0,2 h 24 v 16 h -24 z"/>
+  <path class="monitor-stand" d="m 10,26 v 1 a 2,2 0 0 0 2,2 h 8 a 2,2 0 0 0 2,-2 v -1"/>
+  <rect class="darken-strongly" x="10" y="26" width="12" height="1"/>
+
+  <!-- Login screen -->
+  <rect style="fill:url(#login-screen-background)" x="4" y="8" width="24" height="16"/>
+  <g class="login-screen-foreground">
+    <circle cx="16" cy="14" r="3"/>
+    <rect x="12" y="19" width="8" height="2"/>
+  </g>
+</svg>

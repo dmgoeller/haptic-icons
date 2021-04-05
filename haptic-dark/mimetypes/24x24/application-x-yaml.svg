@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style type="text/css">
+      .yaml-key { fill: #9FA8DA /* Indigo 200 */ }
+      .yaml-value { fill: #C5E1A5 /* Light green 200 */ }
+    </style>
+  </defs>
+  <rect class="yaml-key" x="2" y="5" width="12" height="3"/>
+  <rect class="yaml-key" x="6" y="11" width="5" height="3"/>
+  <rect class="yaml-value" x="12" y="11" width="6" height="3"/>
+  <rect class="yaml-key" x="6" y="17" width="5" height="3"/>
+  <rect class="yaml-value" x="12" y="17" width="10" height="3"/>
+</svg>

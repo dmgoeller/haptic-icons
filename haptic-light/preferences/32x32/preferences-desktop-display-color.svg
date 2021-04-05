@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="monitor-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .monitor-stand { fill: #616161 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Monitor -->
+  <path style="fill:url(#monitor-border)" d="m 4,6 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 24 a 2,2 0 0 0 2,-2 v -16 a 2,2 0 0 0 -2,-2 z m 0,2 h 24 v 16 h -24 z"/>
+  <rect style="fill:url(#screen)" x="4" y="8" width="24" height="16"/>
+
+  <path class="monitor-stand" d="m 10,26 v 1 a 2,2 0 0 0 2,2 h 8 a 2,2 0 0 0 2,-2 v -1"/>
+  <rect class="darken-strongly" x="10" y="26" width="12" height="1"/>
+
+  <!-- Colors -->
+  <rect style="fill:#E53935" x="6" y="13" width="6" height="6"/> <!-- Red 600 -->
+  <rect style="fill:#43A047" x="13" y="13" width="6" height="6"/> <!-- Green 600 -->
+  <rect style="fill:#039BE5" x="20" y="13" width="6" height="6"/> <!-- Blue 600 -->
+</svg>

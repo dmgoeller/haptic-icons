@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="phone-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#757575"/> <!-- Gray 600 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <style type="text/css">
+      .notch { fill: #212121 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <path style="fill:url(#phone-border)" d="m 9,2 a 2,2 0 0 0 -2,2 v 24 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -24 a 2,2 0 0 0 -2,-2 z m 0,2 h 14 v 24 h -14"/>
+  <rect style="fill:url(#screen)" x="9" y="4" width="14" height="24"/>
+  <path class="notch" d="m 9,4 h 3 v 2 a 1,1 0 0 0 1,1 h 6 a 1,1 0 0 0 1,-1 v -2"/>
+  <path class="lighten" d="m 9,2 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 14 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 9,29 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+</svg>

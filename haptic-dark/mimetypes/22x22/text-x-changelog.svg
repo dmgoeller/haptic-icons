@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style type="text/css">
+      .symbol { fill: #9E9E9E /* Gray 500 */ }
+    </style>
+  </defs>
+  <g class="symbol" transform="translate(-1,-1)">
+    <rect x="2" y="5" width="16" height="3" rx="1.5" ry="1.5"/>
+    <circle cx="3.5" cy="12.5" r="1.5"/>
+    <rect x="8" y="11" width="14" height="3" rx="1.5" ry="1.5"/>
+    <circle cx="3.5" cy="18.5" r="1.5"/>
+    <rect x="8" y="17" width="14" height="3" rx="1.5" ry="1.5"/>
+  </g>
+</svg>

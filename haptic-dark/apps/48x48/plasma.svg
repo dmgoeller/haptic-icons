@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="shadow" x1="100%" y1="0" x2="0" y2="100%">
+      <stop offset="0" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="0.5" style="stop-color:black;stop-opacity:0"/>
+    </linearGradient>
+  </defs>
+  <circle style="fill:#FF7043" cx="14" cy="7" r="2.5"/>
+  <circle style="fill:#9CCC65" cx="8" cy="22.5" r="3.5"/>
+  <circle style="fill:#29B6F6" cx="19.5" cy="38.5" r="5"/>
+  <path style="fill:#E0E0E0" d="m 26,8.5 l 4.5,-4.5 13,13 -13,13 -4.5,-4.5 8.5,-8.5 z"/>
+  <path style="fill:url(#shadow)" d="m 34.5,17 4.5,4.5 -8.5,8.5 -4.5,-4.5"/>
+</svg>

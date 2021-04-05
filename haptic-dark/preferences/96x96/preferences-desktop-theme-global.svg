@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="monitor-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <linearGradient id="screen-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+
+    <!-- Light Theme -->
+    <linearGradient id="desktop-background-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BBDEFB"/> <!-- Blue 100 -->
+      <stop offset="100%" style="stop-color:#42A5F5"/> <!-- Blue 400 -->
+    </linearGradient>
+    <linearGradient id="window-background-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+    </linearGradient>
+    <linearGradient id="titlebar-background-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+
+    <!-- Dark Theme -->
+    <linearGradient id="desktop-background-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+      <stop offset="100%" style="stop-color:#1E88E5"/> <!-- Blue 600 -->
+    </linearGradient>
+    <linearGradient id="window-background-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#414141"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="titlebar-background-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+
+    <style type="text/css">
+      .panel-background-light { fill: white; fill-opacity: 0.75 }
+      .panel-background-dark { fill: #424242; fill-opacity: 0.75 }
+      .window-border-light { fill: #BDBDBD }
+      .window-border-dark { fill: #757575 }
+      .monitor-stand { fill: #808080 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken-slightly { fill: black; fill-opacity: 0.0625 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Monitor -->
+  <g transform="scale(2)">
+    <path style="fill:url(#monitor-border)" d="m 4,7 a 2,2 0 0 0 -2,2 v 30 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 v -30 a 2,2 0 0 0 -2,-2 z m 0,2 h 40 v 30 h -40 z"/>
+    <rect style="fill:url(#screen)" x="5" y="10" width="38" height="28"/>
+    <path style="fill:url(#screen-border)" d="m 4,9 v 30 h 40 v -30 z m 1,1 h 38 v 28 h -38"/>
+
+    <path class="monitor-stand" d="m 16,41 v 3 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -3 z"/>
+    <rect class="darken-strongly" x="16" y="41" width="16" height="1"/>
+  </g>
+
+  <!-- Light theme -->
+  <g transform="translate(10,20)">
+    <rect style="fill:url(#desktop-background-light)" width="38" height="56"/>
+    <rect class="panel-background-light" y="50" width="38" height="6"/>
+    <rect class="darken-slightly" y="49" width="38" height="1"/>
+
+    <g transform="translate(20,12)">
+      <path style="fill:url(#titlebar-background-light)" d="m 1,0 a 1,1 0 0 0 -1,1 v 5 h 18 v -6"/>
+      <path style="fill:url(#window-background-light)" d="m 0,6 v 17 a 1,1 0 0 0 1,1 h 17 v -18"/>
+      <path class="lighten" d="m 1,0 a 1,1 0 0 0 -1,1 h 18 v -1"/>
+      <path class="darken" d="m 0,23 a 1,1 0 0 0 1,1 h 17 v -1"/>
+      <path class="darken" d="m 1,-1 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 17 v -1 h -17 a 1,1 0 0 1 -1,-1 v -22 a 1,1 0 0 1 1,-1 h 17 v -1"/>
+    </g>
+  </g>
+
+  <!-- Dark theme -->
+  <g transform="translate(48,20)">
+    <rect style="fill:url(#desktop-background-dark)" width="38" height="56"/>
+    <rect class="panel-background-dark" y="50" width="38" height="6"/>
+    <rect class="darken-slightly" y="49" width="39" height="1"/>
+
+    <g transform="translate(0,12)">
+      <path style="fill:url(#titlebar-background-dark)" d="m 0,0 v 6 h 18 v -5 a 1,1 0 0 0 -1,-1"/>
+      <path style="fill:url(#window-background-dark)" d="m 0,6 v 18 h 17 a 1,1 0 0 0 1,-1 v -17"/>
+      <path class="lighten" d="m 0,0 v 1 h 18 a 1,1 0 0 0 -1,-1"/>
+      <path class="darken" d="m 0,23 v 1 h 17 a 1,1 0 0 0 1,-1"/>
+      <path class="darken" d="m 0,-1 v 1 h 17 a 1,1 0 0 1 1,1 v 22 a 1,1 0 0 1 -1,1 h -17 v 1 h 17 a 2,2 0 0 0 2,-2 v -22 a 2,2 0 0 0 -2,-2"/>
+    </g>
+  </g>
+</svg>

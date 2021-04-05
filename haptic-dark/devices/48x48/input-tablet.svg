@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="tablet-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <linearGradient id="screen-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <style type="text/css">
+      .home-button { fill: #424242 } /* Gray 800 */
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <path style="fill:url(#tablet-border)" d="m 10,2 a 2,2 0 0 0 -2,2 v 40 a 2,2 0 0 0 2,2 h 30 a 2,2 0 0 0 2,-2 v -40 a 2,2 0 0 0 -2,-2 z m 0,6 h 30 v 32 h -30 z"/>
+  <rect style="fill:url(#screen-border)" x="10" y="8" width="30" height="32"/>
+  <rect style="fill:url(#screen)" x="11" y="9" width="28" height="30"/>
+  <circle class="home-button" cx="24" cy="43" r="2"/>
+  <path class="lighten" d="m 10,2 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 30 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 10,45 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 30 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+</svg>

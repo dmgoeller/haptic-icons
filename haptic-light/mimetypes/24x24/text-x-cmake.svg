@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="red" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F44336;"/> <!-- Red 500 -->
+      <stop offset="100%" style="stop-color:#C62828"/> <!-- Red 800 -->
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4CAF50;"/> <!-- Green 500 -->
+      <stop offset="100%" style="stop-color:#2E7D32"/> <!-- Green 800 -->
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#03A9F4;"/> <!-- Blue 500 -->
+      <stop offset="100%" style="stop-color:#0277BD"/> <!-- Blue 800 -->
+    </linearGradient>
+  </defs>
+  <!--
+    Outer triangle: 12,2 2,22 22,22
+    Inner trianlge: 12.9,12 8,16.5 13.5,18.66
+  -->
+  <path style="fill:url(#green)" d="M 2.4,22 21.3,22 8.05,16.8"/>
+  <path style="fill:url(#blue)" d="M 11.79,2.42 2.31,21.38 12.64,11.90"/>
+  <path style="fill:url(#red)" d="M 12.3,2.61 21.84,21.67 13.73,18.49"/>
+</svg>

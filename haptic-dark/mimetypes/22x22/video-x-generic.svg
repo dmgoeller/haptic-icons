@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style type="text/css">
+      .symbol { fill: #BDBDBD /* Gray 400 */ }
+    </style>
+  </defs>
+  <g class="symbol" transform="translate(-1,-1)">
+    <path d="M 4,3 a 2,2 0 0 0 -2,2 v 14 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -14 a 2,2 0 0 0 -2,-2
+             M 9,6.8 18,12 9,17.2"/>
+  </g>
+</svg>

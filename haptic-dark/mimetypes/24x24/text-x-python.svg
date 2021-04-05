@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E3F2FD"/> <!-- Blue 50 -->
+      <stop offset="100%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+    </linearGradient>
+    <linearGradient id="yellow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFDE7"/> <!-- Yellow 50 -->
+      <stop offset="100%" style="stop-color:#FFF176"/> <!-- Yellow 300 -->
+    </linearGradient>
+  </defs>
+  <path style="fill:url(#blue)"
+        d="m 7,4 v 2 h 5 v 1 h -7 c -0.55,0 -3,0 -3,4.5 c 0,4.5 2.45,4.5 3,4.5 h 1 v -1
+           a 4,4 0 0 1 4,-4 h 4 a 3,3 0 0 0 3,-3 v -3 c 0,-0.55 0,-3 -5,-3 c -5,0 -5,2.45 -5,3"/>
+  <path style="fill:url(#yellow)"
+        d="m 18,7 v 1 a 4,4 0 0 1 -4,4 h -4 a 3,3 0 0 0 -3,3 v 3 c 0,0.55 0,3 5,3 c 5,0 5,-2.45 5,-3
+           v -1 h -5 v -1 h 7 c 0.55,0 3,0 3,-4.5 c 0,-4.5 -2.45,-4.5 -3,-4.5"/>
+</svg>

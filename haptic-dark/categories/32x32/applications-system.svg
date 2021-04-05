@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="gear-surface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .gear-inner-circle { fill: #616161 /* Gray 700 */ }
+    </style>
+  </defs>
+  <path style="fill:url(#gear-surface)"
+        d="M 14.5 3 L 12.72 6.557
+           A 10 10 0 0 0 11.64 7.004 L 7.865 5.744 L 5.742 7.867 L 7.004 11.65
+           A 10 10 0 0 0 6.555 12.72 L 3 14.5 L 3 17.5 L 6.566 19.28
+           A 10 10 0 0 0 6.938 20.2 L 5.613 23.95 L 7.697 26.11 L 11.49 24.92
+           A 10 10 0 0 0 12.71 25.43 L 14.5 29 L 17.5 29 L 19.28 25.44
+           A 10 10 0 0 0 20.36 24.99 L 24.13 26.25 L 26.25 24.13 L 24.99 20.35
+           A 10 10 0 0 0 25.45 19.28 L 29 17.5 L 29 14.5 L 25.43 12.72
+           A 10 10 0 0 0 24.99 11.64 L 26.25 7.865 L 24.13 5.742 L 20.34 7.006
+           A 10 10 0 0 0 19.28 6.566 L 17.5 3 L 14.5 3 z
+           M 16 9 A 7 7 0 0 1 16 23 A 7 7 0 0 1 16 9 z
+           M 16 10 A 6 6 0 0 0 16 22 A 6 6 0 0 0 16 10
+           M 16 11 A 5 5 0 0 1 16 21 A 5 5 0 0 1 16 11"/>
+
+  <path class="gear-inner-circle" transform="translate(16,16)"
+        d="m 0,-7 a 7,7 0 0 0 0,14 a 7,7 0 0 0 0,-14
+           m 0,1 a 6,6 0 0 1 0,12 a 6,6 0 0 1 0,-12"/>
+</svg>

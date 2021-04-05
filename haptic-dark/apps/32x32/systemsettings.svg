@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="toggle-on-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2"/> <!-- Blue 700 -->
+      <stop offset="100%" style="stop-color:#1565C0"/> <!-- Blue 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-off-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-handle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+    </linearGradient>
+    <style type="text/css">
+      .toggle-off-background { fill: url(#toggle-off-background) }
+      .toggle-on-background { fill: url(#toggle-on-background) }
+      .toggle-border { fill: #E0E0E0 }
+      .toggle-handle { fill: url(#toggle-handle) }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Toggle off -->
+  <g>
+    <path class="toggle-off-background" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+    <path class="toggle-border" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+    <path class="darken" d="m 26.5,8 a 4.5,4.5 0 0 0 -4.5,-4.5 h -12 a 4.5,4.5 0 0 0 0,9 a 4.5,4.5 0 0 0 2.8,-8 h 9.2 a 4.5,3.5 0 0 1 4.5,3.5"/>
+    <circle class="toggle-handle" cx="10" cy="8" r="3.5"/>
+  </g>
+
+  <!-- Toggle on -->
+  <g transform="translate(0,16)">
+    <path class="toggle-on-background" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+    <path class="toggle-border" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+    <path class="darken" d="m 5.5,8 a 4.5,4.5 0 0 1 4.5,-4.5 h 12 a 4.5,4.5 0 0 1 0,9 a 4.5,4.5 0 0 1 -2.8,-8 h -9.2 a 4.5,3.5 0 0 0 -4.5,3.5"/>
+    <circle class="toggle-handle" cx="22" cy="8" r="3.5"/>
+  </g>
+</svg>

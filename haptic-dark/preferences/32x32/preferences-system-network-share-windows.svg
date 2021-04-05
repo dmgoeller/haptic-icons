@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <g style="fill:#64B5F6"> <!-- Light Blue 300 -->
+    <rect x="4" y="4" width="11" height="11"/>
+    <rect x="18" y="4" width="11" height="11"/>
+    <rect x="4" y="18" width="11" height="11"/>
+    <rect x="18" y="18" width="11" height="11"/>
+  </g>
+</svg>

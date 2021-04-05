@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="window-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="titlebar-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="titlebar-button" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <linearGradient id="toolbar-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="lock-shackle-inner" x1="0" y1="0" x2="100%" y2="0">
+      <stop offset="0%" style="stop-color:black;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:black;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="lock-body" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FDD835"/> <!-- Yellow 600 -->
+      <stop offset="25%" style="stop-color:#FFB300"/> <!-- Amber 600 -->
+      <stop offset="75%" style="stop-color:#FFB300"/>
+      <stop offset="100%" style="stop-color:#FDD835"/>
+    </linearGradient>
+    <linearGradient id="lock-hole" x1="0%" y1="0%" x2="%" y2="100%">
+      <stop offset="0%" style="stop-color:black;stop-opacity:0.75"/>
+      <stop offset="100%" style="stop-color:black;stop-opacity:0.5"/>
+    </linearGradient>
+    <style type="text/css">
+      .window-border { fill: none }
+      .toolbar-field { fill: #E0E0E0 }
+      .lock-shackle { fill: #E0E0E0 }
+      .lock-shackle-inner { fill: url(#lock-shackle-inner) }
+      .lock-body { fill: url(#lock-body) }
+      .lock-hole { fill: url(#lock-hole) }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-very-strongly { fill: black; fill-opacity: 0.375 }
+    </style>
+  </defs>
+
+  <!-- Web browser -->
+  <path style="fill:url(#window-background)" d="m 5,6 a 2,2 0 0 0 -2,2 v 32 a 2,2 0 0 0 2,2 h 20 v -11 a 2,2 0 0 1 2,-2 h 1 a 8,8 0 0 1 16,0 h 1 v -21 a 2,2 0 0 0 -2,-2"/>
+  <path class="window-border" d="m 4,22 h -1 v 18 a 2,2 0 0 0 2,2 h 20 v -1 h -20 a 1,1 0 0 1 -1,-1 z m 41,0 h -1 v 7 h 1"/>
+
+  <path style="fill:url(#titlebar-background)" d="m 5,6 a 2,2 0 0 0 -2,2 v 6 h 42 v -6 a 2,2 0 0 0 -2,-2"/>
+  <path style="fill:url(#titlebar-button)"
+        d="m 5,10 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0
+           m 6,0 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0
+           m 6,0 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0"/>
+
+  <path style="fill:url(#toolbar-background)" d="m 3,14 v 8 h 29.13 a 8,8 0 0 1 7.74,0 h 5.13 v -8"/>
+  <path class="toolbar-field" d="m 9,16 a 1,1 0 0 0 -1,1 v 2 a 1,1 0 0 0 1,1 h 30 a 1,1 0 0 0 1,-1 v -2 a 1,1 0 0 0 -1,-1"/>
+  <path class="darken-very-strongly" d="m 9,16 a 1,1 0 0 0 -1,1 h 32 a 1,1 0 0 0 -1,-1"/>
+
+  <path class="lighten" d="m 5,6 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 38 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 5,41 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 20 v -1"/>
+
+  <!-- Lock -->
+  <g transform="translate(27,23)">
+    <path class="lock-shackle" d="m 3,8 h 2 v -2 a 4,4 0 0 1 8,0 v 2 h 2 v -2 a 6,6 0 0 0 -12,0 " />
+    <path class="lock-shackle-inner" d="m 4,8 h 1 v -2 a 4,4 0 0 1 8,0 v 2 h 1 v -2 a 5,5 0 0 0 -10,0"/>
+    <path class="lock-body" d="m 2,8 a 2,2 0 0 0 -2,2 v 10 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -10 a 2,2 0 0 0 -2,-2"/>
+    <circle class="lock-hole" cx="9" cy="15" r="2"/>
+    <path class="lighten" d="m 2,8 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 14 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+    <path class="darken" d="m 2,21 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1  "/>
+  </g>
+</svg>

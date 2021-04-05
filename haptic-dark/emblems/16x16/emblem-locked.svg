@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#BBDEFB"/> <!-- Blue 100 -->
+      <stop offset="100%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
+    </linearGradient>
+    <style type="text/css">
+      .background { fill: url(#background); stroke: #1976D2 /* Blue 700 */ }
+      .foreground { fill: #0D47A1 /* Blue 900 */ }
+    </style>
+  </defs>
+  <g transform="translate(8,8)">
+    <circle class="background" r="7.5"/>
+    <path class="foreground" d="m -4,-0.5 a 1,1 0 0 1 1,-1 v -1 a 3,3 0 0 1 6,0 v 1 a 1,1 0 0 1 1,1 v 4 a 1,1 0 0 1 -1,1 h -6 a 1,1 0 0 1 -1,-1 z m 2,-1 h 4 v -1 a 2,2 0 0 0 -4,0 z m 2,2 a 1,1 0 0 0 0,2 a 1,1 0 0 0 0,-2 z"/>
+  </g>
+</svg>

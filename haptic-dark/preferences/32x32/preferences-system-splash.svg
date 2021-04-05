@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="monitor-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <linearGradient id="spinner" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#B3E5FC"/> <!-- Light Blue 100 -->
+      <stop offset="100%" style="stop-color:#03A9F4"/> <!-- Light Blue 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .monitor-stand { fill: #808080 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+  <path style="fill:url(#monitor-border)" d="m 4,6 a 2,2 0 0 0 -2,2 v 16 a 2,2 0 0 0 2,2 h 24 a 2,2 0 0 0 2,-2 v -16 a 2,2 0 0 0 -2,-2 z m 0,2 h 24 v 16 h -24 z"/>
+  <rect style="fill:url(#screen)" x="4" y="8" width="24" height="16"/>
+
+  <path class="monitor-stand" d="m 10,26 v 1 a 2,2 0 0 0 2,2 h 8 a 2,2 0 0 0 2,-2 v -1"/>
+  <rect class="darken-strongly" x="10" y="26" width="12" height="1"/>
+
+  <!-- Spinner -->
+  <g transform="translate(16,16)">
+    <path class="darken" d="m 0,-5 a 6,6 0 1 0 6,6 h -2 a 4,4 0 1 1 -4,-4 z"/>
+    <path style="fill:url(#spinner)" d="m 0,-6 a 6,6 0 1 0 6,6 h -2 a 4,4 0 1 1 -4,-4 z"/>
+  </g>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="monitor-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="desktop-background-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BBDEFB"/> <!-- Blue 100 -->
+      <stop offset="100%" style="stop-color:#42A5F5"/> <!-- Blue 400 -->
+    </linearGradient>
+    <linearGradient id="desktop-background-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+      <stop offset="100%" style="stop-color:#1E88E5"/> <!-- Blue 600 -->
+    </linearGradient>
+    <style type="text/css">
+      .panel-background-light { fill: white; fill-opacity: 0.75 }
+      .panel-background-dark { fill: #424242; fill-opacity: 0.75 }
+      .window-border-light { fill: #BDBDBD }
+      .window-border-dark { fill: #757575 }
+      .monitor-stand { fill: #808080 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken-slightly { fill: black; fill-opacity: 0.0625 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Light theme -->
+  <g transform="translate(2,4)">
+    <path style="fill:url(#desktop-background-light)" d="m 2,0 a 2,2 0 0 0 -2,2 v 20 a 2,2 0 0 0 2,2 h 12 v -24"/>
+    <path class="panel-background-light" d="m 0,20 v 2 a 2,2 0 0 0 2,2 h 12 v -4"/>
+    <rect class="darken-slightly" y="19.5" width="16" height="0.5"/>
+  </g>
+
+  <!-- Dark theme -->
+  <g transform="translate(16,4)">
+    <path style="fill:url(#desktop-background-dark)" d="m 0,0 v 24 h 12 a 2,2 0 0 0 2,-2 v -20 a 2,2 0 0 0 -2,-2"/>
+    <path class="panel-background-dark" d="m 0,20 v 4 h 12 a 2,2 0 0 0 2,-2 v -2"/>
+    <rect class="darken-slightly" y="19.5" width="16" height="0.5"/>
+  </g>
+
+  <!-- Plasma Logo -->
+  <g transform="translate(4,3)">
+    <g style="fill:#01579B"> <!-- Light Blue 900 -->
+      <circle cx="7" cy="4" r="1"/>
+      <circle cx="4.5" cy="10.5" r="1.5"/>
+      <circle cx="9" cy="17" r="2"/>
+    </g>
+    <g style="fill:#E3F2FD"> <!-- Blue 50 -->
+      <path d="m 13,5 l 2,-2 5,5 -5,5 -2,-2 3,-3 z"/>
+    </g>
+  </g>
+
+  <!-- Borders -->
+  <path class="lighten" d="m 4,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 24 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 4,27 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 24 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+</svg>

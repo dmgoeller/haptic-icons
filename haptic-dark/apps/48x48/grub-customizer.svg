@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="light-reflex" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.25"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="monitor-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="toggle-on-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2"/> <!-- Blue 700 -->
+      <stop offset="100%" style="stop-color:#1565C0"/> <!-- Blue 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-off-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-handle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+    </linearGradient>
+    <style type="text/css">
+      .screen-background { fill: #212121 }
+      .monitor-stand { fill: #808080 }
+      .toggle-off-background { fill: url(#toggle-off-background) }
+      .toggle-on-background { fill: url(#toggle-on-background) }
+      .toggle-border { fill: #E0E0E0 }
+      .toggle-handle { fill: url(#toggle-handle) }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-strongly { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Monitor -->
+  <path style="fill:url(#monitor-border)" d="M 4 7 A 2 2 0 0 0 2 9 L 2 39 A 2 2 0 0 0 4 41 L 20.06 41 A 8 8 0 0 1 20.07 39 L 4 39 L 4 9 L 44 9 L 44 17.08 A 8 8 0 0 1 46 18.72 L 46 9 A 2 2 0 0 0 44 7 L 4 7 z"/>
+  <path class="screen-background" d="M 4 9 L 4 39 L 20.07 39 A 8 8 0 0 1 28 32 A 8 8 0 0 1 28 16 L 40 16 A 8 8 0 0 1 44 17.08 L 44 9 L 4 9 z"/>
+  <rect class="darken" x="4" y="9" width="40" height="1"/>
+
+  <path class="monitor-stand" d="M 16 41 L 16 44 A 2 2 0 0 0 18 46 L 22.72 46 A 8 8 0 0 1 20.06 41 L 16 41 z"/>
+  <path class="darken-strongly" d="M 16 41 L 16 42 L 20.26 42 A 8 8 0 0 1 20.06 41 L 16 41 z"/>
+
+  <!-- Grub -->
+  <path style="fill:#1565C0" d="M 6 11 L 6 33 L 24.13 33 A 8 8 0 0 1 28 32 A 8 8 0 0 1 28 16 L 40 16 A 8 8 0 0 1 42 16.26 L 42 11 L 6 11 z"/>
+
+  <g style="fill:#BDBDBD">
+    <path d="M 8 13 L 8 31 L 24.15 31 A 8 8 0 0 1 22.72 30 L 9 30 L 9 14 L 39 14 L 39 16 L 40 16 L 40 13 L 8 13 z "/>
+    <path d="M 12 17 L 12 19 L 21.76 19 A 8 8 0 0 1 24.13 17 L 12 17 z"/>
+    <rect style="fill-opacity:0.5" x="12" y="21" width="6" height="2"/>
+    <rect style="fill-opacity:0.5" x="12" y="25" width="6" height="2"/>
+    <rect x="8" y="35" width="2" height="2"/>
+    <rect x="12" y="35" width="2" height="2"/>
+    <rect x="16" y="35" width="2" height="2"/>
+  </g>
+
+  <!-- Light reflex -->
+  <path style="fill:url(#light-reflex)" d="M 4 9 L 4 39 L 20.07 39 A 8 8 0 0 1 28 32 A 8 8 0 0 1 28 16 L 40 16 A 8 8 0 0 1 44 17.08 L 44 9 L 4 9 z"/>
+
+  <!-- Toggles -->
+  <g transform="translate(18,16)" >
+    <path class="toggle-off-background" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+    <path class="toggle-border" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+    <path class="darken" d="m 26.5,8 a 4.5,4.5 0 0 0 -4.5,-4.5 h -12 a 4.5,4.5 0 0 0 0,9 a 4.5,4.5 0 0 0 2.8,-8 h 9.2 a 4.5,3.5 0 0 1 4.5,3.5"/>
+    <circle class="toggle-handle" cx="10" cy="8" r="3.5"/>
+  </g>
+  <g transform="translate(18,32)">
+    <path class="toggle-on-background" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+    <path class="toggle-border" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+    <path class="darken" d="m 5.5,8 a 4.5,4.5 0 0 1 4.5,-4.5 h 12 a 4.5,4.5 0 0 1 0,9 a 4.5,4.5 0 0 1 -2.8,-8 h -9.2 a 4.5,3.5 0 0 0 -4.5,3.5"/>
+    <circle class="toggle-handle" cx="22" cy="8" r="3.5"/>
+  </g>
+</svg>

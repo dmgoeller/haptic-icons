@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="document-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#455A64"/> <!-- Blue gray 700 -->
+      <stop offset="100%" style="stop-color:263238"/> <!-- Blue gray 900 -->
+    </linearGradient>
+    <linearGradient id="document-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90A4AE"/> <!-- Blue gray 300 -->
+      <stop offset="100%" style="stop-color:#607D8B"/> <!-- Blue gray 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .document-background { fill: url(#document-background) }
+      .document-border { fill: url(#document-border) }
+      .symbol {
+        fill: none;
+        stroke: #CFD8DC; /* Blue gray 100 */
+        stroke-width: 2;
+        stroke-linecap: round;
+        stroke-linejoin: round
+      }
+    </style>
+  </defs>
+
+  <!-- Document -->
+  <path class="document-border"
+        d="M 8,2 a 2,2 0 0 0 -2,2 v 40 a 2,2 0 0 0 2,2 h 32 a 2,2 0 0 0 2,-2 v -26 l -16,-16
+           M 8,4 h 17 l 15,15 v 25 h -32
+           M 30,2 h 10 a 2,2 0 0 1 2,2 v 10"/>
+  <path class="document-background"
+        d="M 8,4 h 17 l 15,15 v 25 h -32"/>
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(12,18)">
+    <path d="m 3,11 h 2 l 3,8 l 4,-14 h 9 "/>
+    <path d="M 14,11 l 6,8 M 14,19 l 6,-8"/>
+  </g>
+</svg>

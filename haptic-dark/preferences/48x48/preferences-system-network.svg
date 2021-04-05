@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="network-node" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .network-node { fill:url(#network-node) }
+      .network-connection { fill: #9E9E9E /* Gray 500 */ }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Nodes -->
+  <g transform="translate(10,24)">
+    <circle class="network-node" r="8"/>
+    <path class="lighten" d="m -8,0 a 8,8 0 0 1 16,0 a 8,7 0 0 0 -16,0"/>
+    <path class="darken" d="m -8,0 a 8,8 0 0 0 16,0 a 8,7 0 0 1 -16,0"/>
+  </g>
+  <g transform="translate(38,10)">
+    <circle class="network-node" r="8"/>
+    <path class="lighten" d="m -8,0 a 8,8 0 0 1 16,0 a 8,7 0 0 0 -16,0"/>
+    <path class="darken" d="m -8,0 a 8,8 0 0 0 16,0 a 8,7 0 0 1 -16,0"/>
+  </g>
+  <g transform="translate(38,38)">
+    <circle class="network-node" r="8"/>
+    <path class="lighten" d="m -8,0 a 8,8 0 0 1 16,0 a 8,7 0 0 0 -16,0"/>
+    <path class="darken" d="m -8,0 a 8,8 0 0 0 16,0 a 8,7 0 0 1 -16,0"/>
+  </g>
+
+  <!-- Connections -->
+  <path class="network-connection"
+        d="M 29.26 12.12 L 16.94 18.28 A 9 9 0 0 1 18.74 21.88 L 31.06 15.72 A 9 9 0 0 1 29.26 12.12 z
+           M 18.74 26.12 A 9 9 0 0 1 16.94 29.72 L 29.26 35.88 A 9 9 0 0 1 31.06 32.28 L 18.74 26.12 z"/>
+
+  <path class="lighten"
+        d="M 29.26 12.12 L 16.94 18.28 A 9 9 0 0 1 18.04 19.98 L 29.96 14.02 A 9 9 0 0 1 29.26 12.12 z
+           M 18.74 26.12 A 9 9 0 0 1 18.04 28.02 L 29.96 33.98 A 9 9 0 0 1 31.06 32.28 L 18.74 26.12 z"/>
+</svg>

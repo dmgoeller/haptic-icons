@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <g transform="translate(16,16)">
+    <path style="fill:#EF5350" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Red 400 -->
+    <path style="fill:#AB47BC" transform="rotate(45)" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Purple 400 -->
+    <path style="fill:#5C6BC0" transform="rotate(90)" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Indigo 400 -->
+    <path style="fill:#29B6F6" transform="rotate(135)" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Light Blue 400 -->
+    <path style="fill:#26A69A" transform="rotate(180)" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Teal 400 -->
+    <path style="fill:#9CCC65" transform="rotate(225)" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Light Green 400 -->
+    <path style="fill:#FFEE58" transform="rotate(270)" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Yellow 400 -->
+    <path style="fill:#FFA726" transform="rotate(315)" d="m 0,0 13,0 a 13,13 0 0 1 -3.81,9.19"/> <!-- Orange 400 -->
+  </g>
+</svg>

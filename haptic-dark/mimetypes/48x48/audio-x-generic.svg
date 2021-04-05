@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="symbol" x1="0%" y1="0%" x2="0%" y2="100%">
+       <stop offset="0%" style="stop-color:white"/>
+       <stop offset="100%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+     </linearGradient>
+     <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+       <stop offset="0%" style="stop-color:#00BCD4"/> <!-- Cyan 500 -->
+       <stop offset="100%" style="stop-color:#673AB7"/> <!-- Deep purple 500 -->
+     </linearGradient>
+  </defs>
+  <path style="fill:url(#background)"
+        d="m 5,6 a 2,2 0 0 0 -2,2 v 32 a 2,2 0 0 0 2,2 h 38 a 2,2 0 0 0 2,-2 v -32 a 2,2 0 0 0 -2,-2 z"/>
+
+  <path style="fill:url(#symbol)"
+        transform="translate(12,12)"
+        d="M 20.775,16.1 a 2.6,3.8 60 1 1 -0.4,-0.5
+           M 7.775,16.1 a 2.6,3.8 60 1 1 -0.4,-0.5
+           M 7,3 h 14 v 14 h -1 v -10 h -12 v 10 h -1"/>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="folder-front" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+      <stop offset="100%" style="stop-color:#42A5F5"/> <!-- Blue 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .folder-back { fill: #1976D2 /* Blue 700 */ }
+      .folder-front { fill: url(#folder-front) }
+      .symbol { fill: black; opacity: 0.5 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Folder -->
+  <path class="folder-back" d="m 6,12.67 a 2.67,2.67 0 0 1 2.67,-2.67 h 15.33 c 2,0 2,0 4,2 l 4,4 h 23.33 a 2.67,2.67 0 0 1 2.67,2.67 v 6 a 2.67,2.67 0 0 0 -2.67,-2.67 h -46.66 a 2.67,2.67 0 0 0 -2.67,2.67"/>
+  <path class="darken" d="m 8.67,21 a 3.67,3.67 0 0 0 -2.67,1.15 v 2.52 a 2.67,2.67 0 0 1 2.67,-2.67 h 46.66 a 2.67,2.67 0 0 1 2.67,2.67 v -2.52 a 3.67,3.67 0 0 0 -2.67,-1.15"/>
+  <rect class="folder-front" x="6" y="22" width="52" height="32" rx="2.67" ry="2.67"/>
+  <path class="lighten" d="m 8.67,22 a 2.67,2.67 0 0 0 -2.67,2.67 a 2.67,1.67 0 0 1 2.67,-1.67 h 46.66 a 2.67,1.67 0 0 1 2.67,1.67 a 2.67,2.67 0 0 0 -2.67,-2.67"/>
+  <path class="darken" d="m 8.67,53 a 2.67,1.67 0 0 1 -2.67,-1.67 a 2.67,2.67 0 0 0 2.67,2.67 h 46.66 a 2.67,2.67 0 0 0 2.67,-2.67 a 2.67,1.67 0 0 1 -2.67,1.67"/>
+
+  <!-- Symbol (26x24) -->
+  <g class="symbol" transform="translate(19,26)">
+    <rect y="4" width="19" height="16" rx="2" ry="2"/>
+    <path d="m 26,12 v -6.79 c 0,-0.45 -0.54,-0.67 -0.85,-0.36 l -5.15,5.15
+             l 0,4 l 5.15,5.15 c 0.31,0.31 0.85,0.09 0.85,-0.36 z"/>
+  </g>
+</svg>

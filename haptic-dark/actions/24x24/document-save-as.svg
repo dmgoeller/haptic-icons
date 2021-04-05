@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text">
+    <!-- Arrow down -->
+    <path style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
+          d="M 12,4 l 0,11 m -4,-4 l 4,4 4,-4"/>
+
+    <!-- Dots -->
+    <g style="fill:currentColor">
+      <rect x="11" y="19" width="2" height="2"/>
+      <rect x="15" y="19" width="2" height="2"/>
+      <rect x="19" y="19" width="2" height="2"/>
+    </g>
+  </g>
+</svg>

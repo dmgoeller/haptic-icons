@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="dark-gray" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#757575"/> <!-- Gray 600 -->
+      <stop offset="100%" style="stop-color:#616161"/> <!-- Gray 700 -->
+    </linearGradient>
+    <linearGradient id="gray" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="teal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#80CBC4"/> <!-- Teal 200 -->
+      <stop offset="100%" style="stop-color:#009688"/> <!-- Teal 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <g transform="translate(24,24)">
+    <path style="fill:url(#dark-gray)"
+          d="M 0,-16 A 16,16 0 0 0 -16,0 L -20,0 A 20,20 0 0 1 0,-20
+             M 0,16 A 16,16 0 0 0 16,0 L 20,0 A 20,20 0 0 1 0,20"/>
+    <path style="fill:url(#gray)"
+          d="M 0,-12 A 12,12 0 1 0 12,0 L 16,0 A 16,16 0 1 1 0,-16"/>
+    <path style="fill:url(#teal)"
+          d="M 0,-12 A 12,12 0 0 0 0,12 A 12,12 0 0 0 0,-12
+             M 0,-6 A 6,6 0 0 1 0,6 A 6,6 0 0 1 0,-6"/>
+    <path class="darken"
+          d="M 0,-12 A 12,12 0 1 0 12,0 L 13,0 A 13,13 0 1 1 0,-13"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="gray" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+      <stop offset="100%" style="stop-color:#2196F3"/> <!-- Blue 500 -->
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81C784"/> <!-- Green 300 -->
+      <stop offset="100%" style="stop-color:#4CAF50"/> <!-- Green 500 -->
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8A65"/> <!-- Deep orange 300 -->
+      <stop offset="100%" style="stop-color:#FF5722"/> <!-- Deep orange 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .gray-accent { fill: #EEEEEE /* Gray 200 */ }
+      .blue-accent { fill: #90CAF9 /* Blue 200 */ }
+      .green-accent { fill: #A5D6A7 /* Green 200 */ }
+      .orange-accent { fill: #FFAB91 /* Deep orange 200 */ }
+    </style>
+  </defs>
+  <g transform="translate(3,1)">
+    <path style="fill:url(#gray)" d="m 1,0 a 1,1 0 0 0 -1,1 v 11 a 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 v -7 h -3 a 2,2 0 0 1 -2,-2 v -3"/>
+    <path class="gray-accent" d="m 6,0 l 4,4 h -3 a 1,1 0 0 1 -1,-1"/>
+  </g>
+  <g transform="translate(19,1)">
+    <path style="fill:url(#orange)" d="m 1,0 a 1,1 0 0 0 -1,1 v 11 a 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 v -7 h -3 a 2,2 0 0 1 -2,-2 v -3"/>
+    <path class="orange-accent" d="m 6,0 l 4,4 h -3 a 1,1 0 0 1 -1,-1"/>
+  </g>
+  <g transform="translate(3,18)">
+    <path style="fill:url(#blue)" d="m 1,0 a 1,1 0 0 0 -1,1 v 11 a 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 v -7 h -3 a 2,2 0 0 1 -2,-2 v -3"/>
+    <path class="blue-accent" d="m 6,0 l 4,4 h -3 a 1,1 0 0 1 -1,-1"/>
+  </g>
+  <g transform="translate(19,18)">
+    <path style="fill:url(#green)" d="m 1,0 a 1,1 0 0 0 -1,1 v 11 a 1,1 0 0 0 1,1 h 8 a 1,1 0 0 0 1,-1 v -7 h -3 a 2,2 0 0 1 -2,-2 v -3"/>
+    <path class="green-accent" d="m 6,0 l 4,4 h -3 a 1,1 0 0 1 -1,-1"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="surface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="key" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3D3D3D"/> <!-- Lighten 12.5% -->
+      <stop offset="33.33%" style="stop-color:#3D3D3D"/>
+      <stop offset="33.33%" style="stop-color:#212121"/> <!-- Gray 900 -->
+      <stop offset="66.67%" style="stop-color:#212121"/>
+      <stop offset="66.67%" style="stop-color:#1D1D1D"/> <!-- Darken 12.5% -->
+      <stop offset="100%" style="stop-color:#1D1D1D"/>
+    </linearGradient>
+    <style type="text/css">
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <g transform="translate(3,7)">
+    <!-- Surface -->
+    <path style="fill:url(#surface)" d="M 1.5,0 a 1.5,1.5 0 0 0 -1.5,1.5 v 15 a 1.5,1.5 0 0 0 1.5,1.5 h 23 a 1.5,1.5 0 0 0 1.5,-1.5 v -15 a 1.5,1.5 0 0 0 -1.5,-1.5 z"/>
+    <path class="lighten" d="m 1.5,0 a 1.5,1.5 0 0 0 -1.5,1.5 a 1.5,0.5 0 0 1 1.5,-0.5 h 23 a 1.5,0.5 0 0 1 1.5,0.5 a 1.5,1.5 0 0 0 -1.5,-1.5"/>
+    <path class="darken" d="m 1.5,17 a 1.5,0.5 0 0 1 -1.5,-0.5 a 1.5,1.5 0 0 0 1.5,1.5 h 23 a 1.5,1.5 0 0 0 1.5,-1.5 a 1.5,0.5 0 0 1 -1.5,0.5"/>
+
+    <!-- Keys -->
+    <g style="fill:url(#key)">
+      <path d="M 2.5,3 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3"/>
+      <path d="M 2.5,7.5 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3 m 4.5,0 l 3 0 0 3 -3 0 0 -3"/>
+      <path d="M 7,12 l 12 0 0 3 -12 0"/>
+    </g>
+  </g>
+</svg>

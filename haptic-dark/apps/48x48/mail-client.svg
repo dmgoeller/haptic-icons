@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#03A9F4"/> <!-- Light blue 500 -->
+      <stop offset="100%" style="stop-color:#0277BD"/> <!-- Light blue 800 -->
+    </linearGradient>
+    <linearGradient id="border" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#B3E5FC"/> <!-- Light blue 100 -->
+      <stop offset="100%" style="stop-color:#4FC3F7"/> <!-- Light blue 300 -->
+    </linearGradient>
+    <style type="text/css">
+      .symbol { fill: white }
+    </style>
+  </defs>
+
+  <!-- Background and border -->
+  <g transform="translate(24,24)">
+    <circle style="fill:url(#background)" r="20"/>
+    <path style="fill:url(#border)" d="m -22,0 a 22,22 0 0 0 44,0 a 22,22 0 0 0 -44,0 m 2,0 a 20,20 0 0 1 40,0 a 20,20 0 0 1 -40,0"/>
+  </g>
+
+  <!-- Symbol (28x28) -->
+  <g class="symbol" transform="translate(10,10)">
+    <path d="M 1,7 a 2,2 0 0 1 2,-2 h 22 a 2,2 0 0 1 2,2 l -12,8.7 c -0.9,0.64 -1.1,0.64 -2,0
+             M 1,8.86 v 12.14 a 2,2 0 0 0 2,2 h 22 a 2,2 0 0 0 2,-2 v -12.14 l -12,8.7 c -0.9,0.64 -1.1,0.64 -2,0"/>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <linearGradient id="symbol" x1="0" y1="0" x2="0" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#BBDEFB"/> <!-- Blue 100 -->
+      <stop offset="100%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
+    </linearGradient>
+  </defs>
+  <path style="fill:url(#symbol)" transform="translate(-1,-1)"
+        d="M 20.775,16.1 a 2.6,3.8 60 1 1 -0.4,-0.5
+           M 7.775,16.1 a 2.6,3.8 60 1 1 -0.4,-0.5
+           M 7,3 h 14 v 14 h -1 v -10 h -12 v 10 h -1"/>
+</svg>

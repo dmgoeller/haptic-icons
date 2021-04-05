@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="laptop-lid" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <style type="text/css">
+      .laptop-case { fill: #E0E0E0 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <path style="fill:url(#laptop-lid)" d="m 8,8 a 2,2 0 0 0 -2,2 v 26 h 36 v -26 a 2,2 0 0 0 -2,-2 z m 0,2 h 32 v 23 h -32 z"/>
+  <rect style="fill:url(#screen)" x="8" y="10" width="32" height="24"/>
+  <path class="laptop-case" d="m 2,36 h 44 v 2 a 2,2 0 0 1 -2,2 h -40 a 2,2 0 0 1 -2,-2 z"/>
+  <rect class="lighten" x="2" y="36" width="44" height="1"/>
+  <path class="darken" d="m 4,39 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+</svg>

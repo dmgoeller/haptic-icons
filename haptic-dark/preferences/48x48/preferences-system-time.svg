@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="clock-background" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#1565C0"/> <!-- Blue 800 -->
+      <stop offset="100%" style="stop-color:#0D47A1"/> <!-- Blue 900 -->
+    </linearGradient>
+    <linearGradient id="clock-border" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#42A5F5"/> <!-- Blue 400 -->
+      <stop offset="100%" style="stop-color:#1E88E5"/> <!-- Blue 600 -->
+    </linearGradient>
+    <style type="text/css">
+      .clock-hands {
+        fill:none;
+        stroke: #E3F2FD /* Blue 50 */;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round
+      }
+      .clock-hands-shadow {
+        fill:none;
+        stroke: black;
+        stroke-opacity: 0.0625;
+        stroke-width: 3;
+        stroke-linecap: round;
+        stroke-linejoin: round
+      }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-slightly { fill: black; fill-opacity: 0.0625 }
+    </style>
+  </defs>
+  <g transform="translate(24,24)">
+    <circle style="fill:url(#clock-background)" r="20"/>
+    <path style="fill:url(#clock-border)" d="m 0,-20 a 20,20 0 0 0 0,40 a 20,20 0 0 0 0,-40 m 0,2 a 18,18 0 0 1 0,36 a 18,18 0 0 1 0,-36"/>
+    <path class="lighten" d="m 20,0 a 20,20 0 0 0 -40,0 a 20,19 0 0 1 40,0"/>
+    <path class="darken" d="m 20,0 a 20,20 0 0 1 -40,0 a 20,19 0 0 0 40,0"/>
+    <path class="darken-slightly" d="m 18,0 a 18,18 0 0 0 -36,0 a 18,17 0 0 1 36,0"/>
+    <path class="clock-hands-shadow" d="m 0,-11 0,12 7.79,4.5"/>
+    <path class="clock-hands" d="m 0,-12 0,12 7.79,4.5"/>
+  </g>
+</svg>

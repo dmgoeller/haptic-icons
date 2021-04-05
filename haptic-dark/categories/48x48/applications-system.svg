@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="gear-surface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .gear-inner-circle { fill: #616161 /* Gray 700 */ }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <path style="fill:url(#gear-surface)"
+        d="M 22 4 L 19.7 8.607
+           A 16 16 0 0 0 16.16 10.07 L 11.27 8.443 L 8.443 11.27 L 10.07 16.16
+           A 16 16 0 0 0 8.611 19.7 L 4 22 L 4 26 L 8.59 28.29
+           A 16 16 0 0 0 9.934 31.59 L 8.219 36.45 L 11 39.33 L 15.91 37.79
+           A 16 16 0 0 0 19.7 39.39 L 22 44 L 26 44 L 28.3 39.39
+           A 16 16 0 0 0 31.85 37.93 L 36.73 39.56 L 39.56 36.73 L 37.93 31.85
+           A 16 16 0 0 0 39.39 28.3 L 44 26 L 44 22 L 39.41 19.71
+           A 16 16 0 0 0 37.93 16.16 L 39.56 11.27 L 36.73 8.443 L 31.85 10.07
+           A 16 16 0 0 0 28.3 8.605 L 26 4 L 22 4 z
+           M 24 12 A 12 12 0 0 1 24 36 A 12 12 0 0 1 24 12 z
+           M 24 14 A 10 10 0 0 0 24 34 A 10 10 0 0 0 24 14
+           M 24 16 A 8 8 0 0 1 24 32 A 8 8 0 0 1 24 16"/>
+
+    <g transform="translate(24,24)">
+      <path class="gear-inner-circle"
+            d="m 0,-12 a 12,12 0 0 0 0,24 a 12,12 0 0 0 0,-24
+               m 0,2 a 10,10 0 0 1 0,20 a 10,10 0 0 1 0,-20"/>
+      <path class="darken"
+            d="m -12,0 a 12,12 0 0 1 24,0 a 12,11 0 0 0 -24,0
+               m 2,0 a 10,11 0 0 0 20,0 a 10,10 0 0 1 -20,0"/>
+    </g>
+</svg>

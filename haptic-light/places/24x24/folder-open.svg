@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style type="text/css">
+      .folder-back { fill: #1976D2 /* Blue 700 */ }
+      .folder-front { fill: #42A5F5 /* Blue 400 */ }
+    </style>
+  </defs>
+  <path class="folder-back" d="m 2,4 a 1,1 0 0 1 1,-1 h 5 c 1,0 1,0 2,1 l 2,2 h 9 a 1,1 0 0 1 1,1 v 3 h -20 z"/>
+  <path class="folder-front" d="m 3,21 c -0.55,0 -0.9375,-0.5 -1,-1 l -1 -8 c -0.0625,-0.5 0.45,-1 1,-1 h 20 c 0.55,0 1.0625,0.5 1,1 l -1,8 c -0.0625,0.5 -0.45,1 -1,1 z"/>
+</svg>

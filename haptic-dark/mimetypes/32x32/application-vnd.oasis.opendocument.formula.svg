@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="dark-background-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:black;stop-opacity:0"/>
+      <stop offset="100%" style="stop-color:black;stop-opacity:0.125"/>
+    </linearGradient>
+    <linearGradient id="kinked-edge" x1="0%" y1="100%" x2="50%" y2="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0.25"/>
+    </linearGradient>
+    <style type="text/css">
+      .document-background { fill: #607D8B /* Blue gray 500 */ }
+      .symbol {
+        fill: none;
+        stroke: #ECEFF1; /* Blue gray 50 */
+        stroke-width: 1.5;
+        stroke-linecap: round;
+        stroke-linejoin: round
+      }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Document -->
+  <path class="document-background" d="m 8,3 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 l -8,-8 z"/>
+  <path style="fill:url(#dark-background-overlay)" d="m 8,3 a 2,2 0 0 0 -2,2 v 22 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -16 h -6 a 2,2 0 0 1 -2,-2 v -6"/>
+  <path class="lighten" d="m 8,3 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 10 v -1 z"/>
+  <path class="darken" d="m 8,28 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+
+  <g transform="translate(18,3)">
+    <path style="fill:url(#kinked-edge)" d="m 0,0 v 6 a 2,2 0 0 0 2,2h 6 z"/>
+    <path class="darken" d="m 0,0 l -1,1 v 6 a 3,3 0 0 0 3,3 h 4 l 2,-2 h -6 a 2,2 0 0 1 -2,-2"/>
+    <path class="darken" d="m 0,6 v 1 a 2,2 0 0 0 2,2 h 5 l 1,-1 h -6 a 2,2 0 0 1 -2,-2 "/>
+  </g>
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(8,12)">
+    <path d="m 0.5,7.5 h 1.5 l 2,6 3,-10 h 8"/>
+    <path d="M 9.5,7.5 l 4.5,6 M 9.5,13.5 l 4.5,-6"/>
+  </g>
+</svg>

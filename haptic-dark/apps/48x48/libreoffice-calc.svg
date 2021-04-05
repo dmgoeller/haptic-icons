@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="document-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#388E3C"/> <!-- Green 700 -->
+      <stop offset="100%" style="stop-color:#1B5E20"/> <!-- Green 900 -->
+    </linearGradient>
+    <linearGradient id="document-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81C784"/> <!-- Green 300 -->
+      <stop offset="100%" style="stop-color:#4CAF50"/> <!-- Green 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .document-background { fill: url(#document-background) }
+      .document-border { fill: url(#document-border) }
+      .symbol { fill: #C8E6C9 } <!-- Green 100 -->
+    </style>
+  </defs>
+
+  <!-- Document -->
+  <path class="document-border"
+        d="M 8,2 a 2,2 0 0 0 -2,2 v 40 a 2,2 0 0 0 2,2 h 32 a 2,2 0 0 0 2,-2 v -26 l -16,-16
+           M 8,4 h 17 l 15,15 v 25 h -32
+           M 30,2 h 10 a 2,2 0 0 1 2,2 v 10"/>
+  <path class="document-background"
+        d="M 8,4 h 17 l 15,15 v 25 h -32"/>
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(12,18)">
+    <rect x="2" y="5" width="6" height="3"/>
+    <rect x="9" y="5" width="6" height="3"/>
+    <rect x="16" y="5" width="6" height="3"/>
+    <g style="fill-opacity:0.75">
+      <rect x="2" y="9" width="6" height="3"/>
+      <rect x="9" y="9" width="6" height="3"/>
+      <rect x="16" y="9" width="6" height="3"/>
+      <rect x="2" y="13" width="6" height="3"/>
+      <rect x="9" y="13" width="6" height="3"/>
+      <rect x="16" y="13" width="6" height="3"/>
+      <rect x="2" y="17" width="6" height="3"/>
+      <rect x="9" y="17" width="6" height="3"/>
+      <rect x="16" y="17" width="6" height="3"/>
+    </g>
+  </g>
+</svg>

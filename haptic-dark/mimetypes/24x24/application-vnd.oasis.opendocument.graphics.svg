@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="document" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFE082"/> <!-- Amber 200 -->
+      <stop offset="100%" style="stop-color:#FFD54F"/> <!-- Amber 300 -->
+    </linearGradient>
+    <style type="text/css">
+      .document { fill: url(#document) }
+      .edge { fill: #FFECB3 /* Amber 100 */ }
+    </style>
+  </defs>
+  <path class="document" d="M 5,2 a 1,1 0 0 0 -1,1 v 18 a 1,1 0 0 0 1,1 h 14 a 1,1 0 0 0 1,-1 v -12 h -5 a 2,2 0 0 1 -2,-2 v -5"/>
+  <path class="edge" d="M 14,2 v 5 a 1,1 0 0 0 1,1 h 5"/>
+</svg>

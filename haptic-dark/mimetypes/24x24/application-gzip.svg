@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="left-zipper-teeth" x1="0" y1="2" x2="0" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#B2EBF2"/> <!-- Cyan 100 -->
+      <stop offset="100%" style="stop-color:#80DEEA"/> <!-- Cyan 200 -->
+    </linearGradient>
+    <linearGradient id="right-zipper-teeth" x1="0" y1="2" x2="0" y2="22" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" style="stop-color:#4DD0E1"/> <!-- Cyan 300 -->
+      <stop offset="100%" style="stop-color:#26C6DA"/> <!-- Cyan 400 -->
+    </linearGradient>
+  </defs>
+  <path style="fill:url(#left-zipper-teeth)" d="M 4,2 h 10 v 5 h -10 m 0,5 h 10 v 5 h -10"/>
+  <path style="fill:url(#right-zipper-teeth)" d="M 10,7 h 10 v 5 h -10 m 0,5 h 10 v 5 h -10"/>
+</svg>

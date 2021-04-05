@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="surface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .lighten-very-strongly { fill: white; fill-opacity: 0.375 }
+      .darken-very-strongly { fill:black; fill-opacity: 0.375 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Surface -->
+  <path style="fill:url(#surface)" d="m 40,18 a 16,16 0 0 0 -32,0 v 12 a 16,16 0 0 0 32,0"/>
+  <path class="darken" d="m 8,30 a 16,16 0 0 0 32,0 a 16,15 0 0 1 -32,0"/>
+
+  <!-- Mouse button borders -->
+  <path class="darken-very-strongly" d="m 8,19 v -1 h 15 v -15.97 a 16,16 0 0 1 1,-0.03 v 17"/>
+  <path class="lighten-very-strongly" d="m 24,2 v 17 l 1,-1 v -15.97 a 16,16 0 0 1 -1,-0.03"/>
+  <path class="darken-very-strongly" d="m 24,19 h 16 v -1 h -15"/>
+  <rect class="lighten-very-strongly" x="8" y="19" width="32" height="1"/>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #808080 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(-1,-1)">
+    <!-- Folder -->
+    <path style="fill-opacity:0.625" d="M 3 3 A 1 1 0 0 0 2 4 L 2 10 L 10.72 10 A 8 8 0 0 1 16 8 A 8 8 0 0 1 21.28 10 L 22 10 L 22 7 A 1 1 0 0 0 21 6 L 12 6 L 10 4 C 9 3 9 3 8 3 L 3 3 z "/>
+    <path d="M 2 11 C 1.45 11 0.938 11.5 1 12 L 2 20 C 2.063 20.5 2.45 21 3 21 L 9.756 21 A 8 8 0 0 1 8 16 A 8 8 0 0 1 9.764 11 L 2 11 z"/>
+
+    <!-- Clock -->
+    <path transform="translate(16,16)"
+          d="M -6,0 a 6,6 0 0 0 12,0 a 6,6 0 0 0 -12,0
+             M -1,-4 a 1,1 0 0 1 2,0 v 3.6 l 1.8,1.8 a 1,1 0 0 1 -1.4,1.4 l -2.1,-2.1 c -0.15,-0.15 -0.3,-0.3 -0.3,-0.6"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style type="text/css">
+      .symbol { fill: #9E9E9E /* Gray 500 */ }
+    </style>
+  </defs>
+  <g class="symbol" transform="translate(-1,-1)">
+    <rect x="2" y="5" width="6" height="3"/>
+    <rect x="9" y="5" width="6" height="3"/>
+    <rect x="16" y="5" width="6" height="3"/>
+    <g style="fill-opacity:0.75">
+      <rect x="2" y="9" width="6" height="3"/>
+      <rect x="9" y="9" width="6" height="3"/>
+      <rect x="16" y="9" width="6" height="3"/>
+      <rect x="2" y="13" width="6" height="3"/>
+      <rect x="9" y="13" width="6" height="3"/>
+      <rect x="16" y="13" width="6" height="3"/>
+      <rect x="2" y="17" width="6" height="3"/>
+      <rect x="9" y="17" width="6" height="3"/>
+      <rect x="16" y="17" width="6" height="3"/>
+    </g>
+  </g>
+</svg>

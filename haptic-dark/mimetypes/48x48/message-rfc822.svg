@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="envelope" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .envelope { fill: url(#envelope) }
+      .seal-flap { fill: white; fill-opacity: 0.09375 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Envelope -->
+  <path class="envelope" d="m 4,8 a 2,2 0 0 0 -2,2 v 28 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 v -28 a 2,2 0 0 0 -2,-2 "/>
+  <path class="seal-flap" d="m 2,12 v -2 a 2,2 0 0 1 2,-2 h 40 a 2,2 0 0 1 2,2 v 2 l -20,14.5 c -1.8,1.28 -2.2,1.28 -4,0"/>
+
+  <!-- Shadow -->
+  <g class="darken-strongly">
+    <path d="m 2,12 l 20,14.5 c 1.8,1.28 2.2 1.28 4,0 l 20,-14.5 -1,1.725 -19,13.775 c -1.8,1.28 -2.2,1.28 -4,0 l -19,-13.775"/>
+    <path d="m 2,12 l 20,14.5 c 1.8,1.28 2.2 1.28 4,0 l 20,-14.5 -2,3.45 -18,13.05 c -1.8,1.28 -2.2,1.28 -4,0 l -18,-13.05"/>
+  </g>
+
+  <!-- Borders -->
+  <path class="lighten" d="m 4,8 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 40 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 4,39 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+</svg>

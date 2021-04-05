@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="light-background-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.125"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="kinked-edge" x1="0%" y1="100%" x2="50%" y2="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0.25"/>
+    </linearGradient>
+    <style type="text/css">
+      .document-background { fill: #BDBDBD /* Gray 400 */ }
+      .symbol { fill: #616161 /* Gray 700 */ }
+      .lighten-strongly { fill: white; fill-opacity: 0.25 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Document -->
+  <path class="document-background" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+  <path style="fill:url(#light-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+  <path class="lighten-strongly" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+  <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+
+  <g transform="translate(28,4)">
+    <path style="fill:url(#kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+    <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+    <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+  </g>
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(12,18)">
+    <path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/>
+  </g>
+</svg>

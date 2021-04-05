@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="gray" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="gray-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+      <stop offset="100%" style="stop-color:#2196F3"/> <!-- Blue 500 -->
+    </linearGradient>
+    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
+      <stop offset="100%" style="stop-color:#42A5F5"/> <!-- Blue 400 -->
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#81C784"/> <!-- Green 300 -->
+      <stop offset="100%" style="stop-color:#4CAF50"/> <!-- Green 500 -->
+    </linearGradient>
+    <linearGradient id="green-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#A5D6A7"/> <!-- Green 200 -->
+      <stop offset="100%" style="stop-color:#66BB6A"/> <!-- Green 400 -->
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF8A65"/> <!-- Deep orange 300 -->
+      <stop offset="100%" style="stop-color:#FF5722"/> <!-- Deep orange 500 -->
+    </linearGradient>
+    <linearGradient id="orange-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFAB91"/> <!-- Deep orange 200 -->
+      <stop offset="100%" style="stop-color:#FF7043"/> <!-- Deep orange 400 -->
+    </linearGradient>
+  </defs>
+  <g transform="translate(19,14)">
+    <path style="fill:url(#gray)"
+          d="m 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -7 a 2,2 0 0 1 -2,-2 v -7"/>
+    <path style="fill:url(#gray-accent)"
+          d="M 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -1 v 18 h -19 v -26 h 11 v -1
+             M 13,0 l 8,8 h -7 a 1,1 0 0 1 -1,-1"/>
+  </g>
+  <g transform="translate(56,14)">
+    <path style="fill:url(#orange)"
+          d="m 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -7 a 2,2 0 0 1 -2,-2 v -7"/>
+    <path style="fill:url(#orange-accent)"
+          d="M 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -1 v 18 h -19 v -26 h 11 v -1
+             M 13,0 l 8,8 h -7 a 1,1 0 0 1 -1,-1"/>
+  </g>
+  <g transform="translate(19,54)">
+    <path style="fill:url(#blue)"
+          d="m 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -7 a 2,2 0 0 1 -2,-2 v -7"/>
+    <path style="fill:url(#blue-accent)"
+          d="M 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -1 v 18 h -19 v -26 h 11 v -1
+             M 13,0 l 8,8 h -7 a 1,1 0 0 1 -1,-1"/>
+  </g>
+  <g transform="translate(56,54)">
+
+    <path style="fill:url(#green)"
+          d="m 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -7 a 2,2 0 0 1 -2,-2 v -7"/>
+    <path style="fill:url(#green-accent)"
+          d="M 1,0 a 1,1 0 0 0 -1,1 v 26 a 1,1 0 0 0 1,1 h 19 a 1,1 0 0 0 1,-1 v -18 h -1 v 18 h -19 v -26 h 11 v -1
+             M 13,0 l 8,8 h -7 a 1,1 0 0 1 -1,-1"/>
+  </g>
+</svg>

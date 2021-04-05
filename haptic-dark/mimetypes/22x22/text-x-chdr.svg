@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style type="text/css">
+      .symbol { fill: #B39DDB /* Deep purple 200 */ }
+    </style>
+  </defs>
+  <g class="symbol" transform="translate(-1,-1)">
+    <path d="M 9,21 v -18 h -3 v 18 M 15,21 h 3 v -7.25 a 6,6 0 0 0 -12,0 h 3 a 3,3 0 0 1 6,0"/>
+  </g>
+</svg>
