@@ -1,0 +1,407 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 232 240">
+  <defs>
+    <style type="text/css">
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .lighten-strongly { fill: white; fill-opacity: 0.25 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+  <path style="fill:#F0F0F0" d="m 4,0 a 4,4 0 0 0 -4,4 v 116 h 232 v -116 a 4,4 0 0 0 -4,-4"/>
+  <path style="fill:#303000" d="m 0,120 v 116 a 4,4 0 0 0 4,4 h 224 a 4,4 0 0 0 4,-4 v -116"/>
+
+  <!-- Folder icons -->
+  <defs>
+    <linearGradient id="folder-front-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+      <stop offset="100%" style="stop-color:#42A5F5"/> <!-- Blue 400 -->
+    </linearGradient>
+    <linearGradient id="folder-front-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
+      <stop offset="100%" style="stop-color:#64B5F6"/> <!-- Blue 300 -->
+    </linearGradient>
+    <style type="text/css">
+      .folder-back-light { fill: #1976D2 /* Blue 700 */ }
+      .folder-back-dark { fill: #2196F3 /* Blue 500 */ }
+      .folder-front-light { fill: url(#folder-front-light) }
+      .folder-front-dark { fill: url(#folder-front-dark) }
+    </style>
+  </defs>
+
+  <g transform="translate(8,8)">
+    <path class="folder-back-light" d="m 4,10 a 2,2 0 0 1 2,-2 h 12 c 2,0 2,0 4,2 l 2,2 h 18 a 2,2 0 0 1 2,2 v 4 a 2,2 0 0 0 -2,-2 h -36 a 2,2 0 0 0 -2,2"/>
+    <path class="darken" d="m 6,15 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 36 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
+    <rect class="folder-front-light" x="4" y="16" width="40" height="24" rx="2" ry="2"/>
+    <path class="lighten" d="m 6,16 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 36 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+    <path class="darken" d="m 6,39 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+  </g>
+  <g transform="translate(8,128)">
+    <path class="folder-back-dark" d="m 4,10 a 2,2 0 0 1 2,-2 h 12 c 2,0 2,0 4,2 l 2,2 h 18 a 2,2 0 0 1 2,2 v 4 a 2,2 0 0 0 -2,-2 h -36 a 2,2 0 0 0 -2,2"/>
+    <path class="darken" d="m 6,15 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 36 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
+    <rect class="folder-front-dark" x="4" y="16" width="40" height="24" rx="2" ry="2"/>
+    <path class="lighten" d="m 6,16 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 36 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+    <path class="darken" d="m 6,39 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+  </g>
+
+  <!-- System settings icons -->
+  <defs>
+    <linearGradient id="gear-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#757575"/> <!-- Gray 600 -->
+      <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-on-background-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BBDEFB"/> <!-- Blue 100 -->
+      <stop offset="100%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
+    </linearGradient>
+    <linearGradient id="toggle-off-background-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+    </linearGradient>
+    <linearGradient id="toggle-handle-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="gear-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="toggle-on-background-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1976D2"/> <!-- Blue 700 -->
+      <stop offset="100%" style="stop-color:#1565C0"/> <!-- Blue 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-off-background-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="toggle-handle-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .gear-inner-circle-light { fill: #9E9E9E /* Gray 600 */ }
+      .gear-inner-circle-dark { fill: #424242 /* Gray 800 */ }
+      .toggle-off-background-light { fill: url(#toggle-off-background-light) }
+      .toggle-off-background-dark { fill: url(#toggle-off-background-dark) }
+      .toggle-on-background-light { fill: url(#toggle-on-background-light) }
+      .toggle-on-background-dark { fill: url(#toggle-on-background-dark) }
+      .toggle-border-light { fill: #757575 }
+      .toggle-border-dark { fill: #E0E0E0 }
+      .toggle-handle-light { fill: url(#toggle-handle-light) }
+      .toggle-handle-dark { fill: url(#toggle-handle-dark) }
+    </style>
+  </defs>
+
+  <g transform="translate(64,8)">
+    <path class="gear-inner-circle-light"
+          d="M 23 10 A 13 13 0 0 0 19.78 35.58 A 8 8 0 0 1 21.8 32.92
+             A 10 10 0 0 1 23 13 A 10 10 0 0 1 29 15 L 33.24 15 A 13 13 0 0 0 23 10 z"/>
+    <path style="fill:url(#gear-light)"
+          d="M 21 3 L 18.7 7.607 A 16 16 0 0 0 15.16 9.072
+             L 10.27 7.441 L 7.439 10.27 L 9.068 15.15 A 16 16 0 0 0 7.611 18.7
+             L 3 21 L 3 25 L 7.59 27.29 A 16 16 0 0 0 8.936 30.6
+             L 7.221 35.45 L 10 38.33 L 14.91 36.79 A 16 16 0 0 0 18.7 38.39
+             L 19.01 39.01 A 8 8 0 0 1 20.27 34.67 A 12 12 0 0 1 23 11 A 12 12 0 0 1 31.93 15
+             L 36.97 15 L 38.55 10.27 L 35.73 7.439 L 30.85 9.066 A 16 16 0 0 0 27.3 7.605 L 25 3 L 21 3 z
+             M 23 12 A 11 11 0 0 0 20.94 33.79 A 8 8 0 0 1 23.13 32 A 9 9 0 0 1 23 32 A 9 9 0 0 1 23 14 A 9 9 0 0 1 27.1 15 L 30.54 15 A 11 11 0 0 0 23 12 z"/>
+    <g transform="translate(17,15)" >
+      <path class="toggle-off-background-light" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+      <path class="toggle-border-light" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+      <path class="darken" d="m 26.5,8 a 4.5,4.5 0 0 0 -4.5,-4.5 h -12 a 4.5,4.5 0 0 0 0,9 a 4.5,4.5 0 0 0 2.8,-8 h 9.2 a 4.5,3.5 0 0 1 4.5,3.5"/>
+      <circle class="toggle-handle-light" cx="10" cy="8" r="3.5"/>
+    </g>
+    <g transform="translate(17,31)">
+      <path class="toggle-on-background-light" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+      <path class="toggle-border-light" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+      <path class="darken" d="m 5.5,8 a 4.5,4.5 0 0 1 4.5,-4.5 h 12 a 4.5,4.5 0 0 1 0,9 a 4.5,4.5 0 0 1 -2.8,-8 h -9.2 a 4.5,3.5 0 0 0 -4.5,3.5"/>
+      <circle class="toggle-handle-light" cx="22" cy="8" r="3.5"/>
+    </g>
+  </g>
+
+  <g transform="translate(64,128)">
+    <path class="gear-inner-circle-dark"
+          d="M 23 10 A 13 13 0 0 0 19.78 35.58 A 8 8 0 0 1 21.8 32.92
+             A 10 10 0 0 1 23 13 A 10 10 0 0 1 29 15 L 33.24 15 A 13 13 0 0 0 23 10 z"/>
+    <path style="fill:url(#gear-dark)"
+          d="M 21 3 L 18.7 7.607 A 16 16 0 0 0 15.16 9.072
+             L 10.27 7.441 L 7.439 10.27 L 9.068 15.15 A 16 16 0 0 0 7.611 18.7
+             L 3 21 L 3 25 L 7.59 27.29 A 16 16 0 0 0 8.936 30.6
+             L 7.221 35.45 L 10 38.33 L 14.91 36.79 A 16 16 0 0 0 18.7 38.39
+             L 19.01 39.01 A 8 8 0 0 1 20.27 34.67 A 12 12 0 0 1 23 11 A 12 12 0 0 1 31.93 15
+             L 36.97 15 L 38.55 10.27 L 35.73 7.439 L 30.85 9.066 A 16 16 0 0 0 27.3 7.605 L 25 3 L 21 3 z
+             M 23 12 A 11 11 0 0 0 20.94 33.79 A 8 8 0 0 1 23.13 32 A 9 9 0 0 1 23 32 A 9 9 0 0 1 23 14 A 9 9 0 0 1 27.1 15 L 30.54 15 A 11 11 0 0 0 23 12 z"/>
+    <g transform="translate(17,15)" >
+      <path class="toggle-off-background-dark" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+      <path class="toggle-border-dark" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+      <path class="darken" d="m 26.5,8 a 4.5,4.5 0 0 0 -4.5,-4.5 h -12 a 4.5,4.5 0 0 0 0,9 a 4.5,4.5 0 0 0 2.8,-8 h 9.2 a 4.5,3.5 0 0 1 4.5,3.5"/>
+      <circle class="toggle-handle-dark" cx="10" cy="8" r="3.5"/>
+    </g>
+    <g transform="translate(17,31)">
+      <path class="toggle-on-background-dark" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z"/>
+      <path class="toggle-border-dark" d="m 10,2 a 6,6 0 0 0 0,12 h 12 a 6,6 0 0 0 0,-12 z m 0,1.5 h 12 a 4.5,4.5 0 0 1 0,9 h -12 a 4.5,4.5 0 0 1 0,-9 z"/>
+      <path class="darken" d="m 5.5,8 a 4.5,4.5 0 0 1 4.5,-4.5 h 12 a 4.5,4.5 0 0 1 0,9 a 4.5,4.5 0 0 1 -2.8,-8 h -9.2 a 4.5,3.5 0 0 0 -4.5,3.5"/>
+      <circle class="toggle-handle-dark" cx="22" cy="8" r="3.5"/>
+    </g>
+  </g>
+
+  <!-- Monitor icons -->
+  <defs>
+    <linearGradient id="monitor-border-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="monitor-border-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="screen-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="screen-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <linearGradient id="screen-border-light" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#757575"/> <!-- Gray 600 -->
+      <stop offset="100%" style="stop-color:#616161"/> <!-- Gray 700 -->
+    </linearGradient>
+    <linearGradient id="screen-border-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <style type="text/css">
+      .monitor-stand-light { fill: #616161 }
+      .monitor-stand-dark { fill: #808080 }
+    </style>
+  </defs>
+
+  <g transform="translate(120,8)">
+    <path style="fill:url(#monitor-border-light)" d="m 4,7 a 2,2 0 0 0 -2,2 v 30 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 v -30 a 2,2 0 0 0 -2,-2 z m 0,2 h 40 v 30 h -40 z"/>
+    <rect style="fill:url(#screen-light)" x="5" y="10" width="38" height="28"/>
+    <path style="fill:url(#screen-border-light)" d="m 4,9 v 30 h 40 v -30 z m 1,1 h 38 v 28 h -38"/>
+    <path class="monitor-stand-light" d="m 16,41 v 3 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -3 z"/>
+    <rect class="darken-strongly" x="16" y="41" width="16" height="1"/>
+  </g>
+
+  <g transform="translate(120,128)">
+    <path style="fill:url(#monitor-border-dark)" d="m 4,7 a 2,2 0 0 0 -2,2 v 30 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 v -30 a 2,2 0 0 0 -2,-2 z m 0,2 h 40 v 30 h -40 z"/>
+    <rect style="fill:url(#screen-dark)" x="5" y="10" width="38" height="28"/>
+    <path style="fill:url(#screen-border-dark)" d="m 4,9 v 30 h 40 v -30 z m 1,1 h 38 v 28 h -38"/>
+    <path class="monitor-stand-dark" d="m 16,41 v 3 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -3 z"/>
+    <rect class="darken-strongly" x="16" y="41" width="16" height="1"/>
+  </g>
+
+  <!-- Info icons -->
+  <defs>
+    <linearGradient id="dialog-infomation-background-light" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#039BE5"/> <!-- Blue 600 -->
+      <stop offset="100%" style="stop-color:#0277BD"/> <!-- Blue 800 -->
+    </linearGradient>
+    <linearGradient id="dialog-infomation-background-dark" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#2196F3"/> <!-- Blue 500 -->
+      <stop offset="100%" style="stop-color:#1976D2"/> <!-- Blue 700 -->
+    </linearGradient>
+    <style type="text/css">
+      .dialog-information-symbol { fill: white }
+    </style>
+  </defs>
+
+  <g transform="translate(176,8)">
+    <g transform="translate(24,24)">
+      <circle style="fill:url(#dialog-infomation-background-light)" r="20"/>
+      <path class="dialog-information-symbol" d="M 0,-12.5 a 3,3 0 0 1 0,6 a 3,3 0 0 1 0,-6 M -3,0.5 a 3,3 0 0 1 6,0 v 9 a 3,3 0 0 1 -6,0"/>
+    </g>
+  </g>
+
+  <g transform="translate(176,128)">
+    <g transform="translate(24,24)">
+      <circle style="fill:url(#dialog-infomation-background-dark)" r="20"/>
+      <path class="dialog-information-symbol" d="M 0,-12.5 a 3,3 0 0 1 0,6 a 3,3 0 0 1 0,-6 M -3,0.5 a 3,3 0 0 1 6,0 v 9 a 3,3 0 0 1 -6,0"/>
+    </g>
+  </g>
+
+  <!-- Document icons -->
+  <defs>
+    <linearGradient id="document-background-overlay" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.125"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0"/>
+    </linearGradient>
+    <linearGradient id="document-kinked-edge" x1="0%" y1="100%" x2="50%" y2="50%">
+      <stop offset="0%" style="stop-color:white;stop-opacity:0.5"/>
+      <stop offset="100%" style="stop-color:white;stop-opacity:0.25"/>
+    </linearGradient>
+    <style type="text/css">
+      .document-background-light { fill: #1976D2 /* Blue 700 */ }
+      .document-background-dark { fill: #1E88E5 /* Blue 600 */ }
+      .document-symbol { fill: #E3F2FD /* Blue 50 */ }
+      .spreadsheet-background-light { fill: #388E3C /* Green 700 */ }
+      .spreadsheet-background-dark { fill: #43A047 /* Green 600 */ }
+      .spreadsheet-symbol { fill: #E8F5E9 /* Green 50 */ }
+      .drawing-background { fill: #FF8F00 /* Amber 800 */ }
+      .drawing-symbol { fill: #FFF8E1 /* Amber 50 */ }
+      .presentation-background-light { fill: #E64A19 /* Deep orange 700 */ }
+      .presentation-background-dark { fill: #F4511E /* Deep orange 600 */ }
+      .presentation-symbol { fill: #FBE9E7 /* Deep orange 50 */ }
+    </style>
+  </defs>
+
+  <g transform="translate(8,64)">
+    <path class="document-background-light" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="document-symbol" transform="translate(12,18)">
+      <rect x="2" y="4" width="20" height="3" rx="1.5" ry="1.5"/>
+      <rect x="2" y="10" width="20" height="3" rx="1.5" ry="1.5"/>
+      <rect x="2" y="16" width="12" height="3" rx="1.5" ry="1.5"/>
+    </g>
+  </g>
+
+  <g transform="translate(8,184)">
+    <path class="document-background-dark" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="document-symbol" transform="translate(12,18)">
+      <rect x="2" y="4" width="20" height="3" rx="1.5" ry="1.5"/>
+      <rect x="2" y="10" width="20" height="3" rx="1.5" ry="1.5"/>
+      <rect x="2" y="16" width="12" height="3" rx="1.5" ry="1.5"/>
+    </g>
+  </g>
+
+  <g transform="translate(64,64)">
+    <path class="spreadsheet-background-light" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="spreadsheet-symbol" transform="translate(12,18)">
+      <rect x="2" y="5" width="6" height="3"/>
+      <rect x="9" y="5" width="6" height="3"/>
+      <rect x="16" y="5" width="6" height="3"/>
+      <g style="fill-opacity:0.75">
+        <rect x="2" y="9" width="6" height="3"/>
+        <rect x="9" y="9" width="6" height="3"/>
+        <rect x="16" y="9" width="6" height="3"/>
+        <rect x="2" y="13" width="6" height="3"/>
+        <rect x="9" y="13" width="6" height="3"/>
+        <rect x="16" y="13" width="6" height="3"/>
+        <rect x="2" y="17" width="6" height="3"/>
+        <rect x="9" y="17" width="6" height="3"/>
+        <rect x="16" y="17" width="6" height="3"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(64,184)">
+    <path class="spreadsheet-background-dark" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="spreadsheet-symbol" transform="translate(12,18)">
+      <rect x="2" y="5" width="6" height="3"/>
+      <rect x="9" y="5" width="6" height="3"/>
+      <rect x="16" y="5" width="6" height="3"/>
+      <g style="fill-opacity:0.75">
+        <rect x="2" y="9" width="6" height="3"/>
+        <rect x="9" y="9" width="6" height="3"/>
+        <rect x="16" y="9" width="6" height="3"/>
+        <rect x="2" y="13" width="6" height="3"/>
+        <rect x="9" y="13" width="6" height="3"/>
+        <rect x="16" y="13" width="6" height="3"/>
+        <rect x="2" y="17" width="6" height="3"/>
+        <rect x="9" y="17" width="6" height="3"/>
+        <rect x="16" y="17" width="6" height="3"/>
+      </g>
+    </g>
+  </g>
+
+  <g transform="translate(120,64)">
+    <path class="drawing-background" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="drawing-symbol" transform="translate(12,18)">
+      <path style="fill-opacity:0.5" d="M 9 1 A 8 8 0 0 0 1 9 A 8 8 0 0 0 3.834 15.1 L 9 6.15 L 10 7.883 L 10 5 L 15.92 5 A 8 8 0 0 0 9 1 z"/>
+      <path style="fill-opacity:0.75" d="M 11 6 L 11 9.615 L 15.84 18 L 23 18 L 23 6 L 11 6 z"/>
+      <path d="m 1,22 l 8,-13.86 8,13.86 z"/>
+    </g>
+  </g>
+  <g transform="translate(120,184)">
+    <path class="drawing-background" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="drawing-symbol" transform="translate(12,18)">
+      <path style="fill-opacity:0.5" d="M 9 1 A 8 8 0 0 0 1 9 A 8 8 0 0 0 3.834 15.1 L 9 6.15 L 10 7.883 L 10 5 L 15.92 5 A 8 8 0 0 0 9 1 z"/>
+      <path style="fill-opacity:0.75" d="M 11 6 L 11 9.615 L 15.84 18 L 23 18 L 23 6 L 11 6 z"/>
+      <path d="m 1,22 l 8,-13.86 8,13.86 z"/>
+    </g>
+  </g>
+
+  <g transform="translate(176,64)">
+    <path class="presentation-background-light" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="presentation-symbol" transform="translate(12,18)">
+      <rect x="3" y="5" width="18" height="3" rx="1.5" ry="1.5"/>
+      <circle cx="4.5" cy="12.5" r="1.5"/>
+      <rect x="9" y="11" width="12" height="3" rx="1.5" ry="1.5"/>
+      <circle cx="4.5" cy="18.5" r="1.5"/>
+      <rect x="9" y="17" width="12" height="3" rx="1.5" ry="1.5"/>
+    </g>
+  </g>
+  <g transform="translate(176,184)">
+    <path class="presentation-background-dark" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 l -12,-12 z"/>
+    <path style="fill:url(#document-background-overlay)" d="m 10,4 a 2,2 0 0 0 -2,2 v 36 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 v -26 h -10 a 2,2 0 0 1 -2,-2 v -10"/>
+    <path class="lighten" d="m 10,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 18 v -1 z"/>
+    <path class="darken" d="m 10,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 28 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <g transform="translate(28,4)">
+      <path style="fill:url(#document-kinked-edge)" d="m 0,0 v 10 a 2,2 0 0 0 2,2 h 10 z"/>
+      <path class="darken" d="m 0,0 l -1,1 v 10 a 3,3 0 0 0 3,3 h 8 l 2,-2 h -10 a 2,2 0 0 1 -2,-2"/>
+      <path class="darken" d="m 0,10 v 1 a 2,2 0 0 0 2,2 h 9 l 1,-1 h -10 a 2,2 0 0 1 -2,-2 "/>
+    </g>
+    <g class="presentation-symbol" transform="translate(12,18)">
+      <rect x="3" y="5" width="18" height="3" rx="1.5" ry="1.5"/>
+      <circle cx="4.5" cy="12.5" r="1.5"/>
+      <rect x="9" y="11" width="12" height="3" rx="1.5" ry="1.5"/>
+      <circle cx="4.5" cy="18.5" r="1.5"/>
+      <rect x="9" y="17" width="12" height="3" rx="1.5" ry="1.5"/>
+    </g>
+  </g>  
+</svg>
