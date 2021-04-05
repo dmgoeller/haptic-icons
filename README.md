@@ -2,4 +2,4 @@
 
 Material Design icons for light and dark KDE Plasma themes.
 
-![Preview](./preview.svg)
+<img src="./preview.svg" width="232" height="240">
