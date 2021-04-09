@@ -17,6 +17,7 @@
       <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
     </linearGradient>
     <style type="text/css">
+      .gear-inner-circle { fill: #9E9E9E /* Gray 500 */ }
       .toggle-off-background { fill: url(#toggle-off-background) }
       .toggle-on-background { fill: url(#toggle-on-background) }
       .toggle-border { fill: #757575 }
@@ -26,7 +27,7 @@
   </defs>
 
   <!-- Gear -->
-  <path style="fill:#9E9E9E"
+  <path class="gear-inner-circle"
         d="M 23 10 A 13 13 0 0 0 19.78 35.58 A 8 8 0 0 1 21.8 32.92
            A 10 10 0 0 1 23 13 A 10 10 0 0 1 29 15 L 33.24 15 A 13 13 0 0 0 23 10 z"/>
 
