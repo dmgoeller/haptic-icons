@@ -5,8 +5,11 @@
       <stop offset="100%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
     </linearGradient>
     <style type="text/css">
-      .background { fill: url(#background); stroke: #1976D2 /* Blue 700 */ }
-      .foreground {
+      .background {
+        fill: url(#background);
+        stroke: #1976D2 /* Blue 700 */
+      }
+      .symbol {
         fill: none;
         stroke: #0D47A1; /* Blue 900 */
         stroke-width: 2;
@@ -17,6 +20,6 @@
   </defs>
   <g transform="translate(8,8)">
     <circle class="background" r="7.5"/>
-    <path class="foreground" transform="rotate(-45)" d="M -4,0 l 8,0 m -4,-4 l 4,4 -4,4"/>
+    <path class="symbol" transform="rotate(-45)" d="M -4,0 l 8,0 m -4,-4 l 4,4 -4,4"/>
   </g>
 </svg>

@@ -5,10 +5,10 @@
       <stop offset="100%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
     </linearGradient>
     <style type="text/css">
-      .background { fill: url(#background); stroke: #1976D2 /* Blue 700 */ }
-      .foreground { fill: #0D47A1 /* Blue 900 */ }
+      .background { fill: url(#background) }
+      .symbol { fill: #0D47A1 /* Blue 900 */ }
     </style>
   </defs>
   <rect class="background" x="0" y="0" width="8" height="8" rx="1" ry="1"/>
-  <circle class="foreground" cx="4" cy="4" r="2"/>
+  <circle class="symbol" cx="4" cy="4" r="2"/>
 </svg>

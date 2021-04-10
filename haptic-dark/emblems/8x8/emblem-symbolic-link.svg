@@ -6,9 +6,9 @@
     </linearGradient>
     <style type="text/css">
       .background { fill: url(#background) }
-      .foreground { fill: none; stroke: #0D47A1 /* Blue 900 */ }
+      .symbol { fill: none; stroke: #0D47A1 /* Blue 900 */ }
     </style>
   </defs>
   <rect class="background" x="0" y="0" width="8" height="8" rx="1" ry="1"/>
-  <path class="foreground" transform="rotate(-45,4,4)" d="M 4,1 l 3,3 -3,3 M 1,4 l 6,0"/>
+  <path class="symbol" transform="rotate(-45,4,4)" d="M 4,1 l 3,3 -3,3 M 1,4 l 6,0"/>
 </svg>

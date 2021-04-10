@@ -6,11 +6,11 @@
     </linearGradient>
     <style type="text/css">
       .background { fill: url(#background); stroke: #1976D2 /* Blue 700 */ }
-      .foreground { fill: #0D47A1 /* Blue 900 */ }
+      .symbol { fill: #0D47A1 /* Blue 900 */ }
     </style>
   </defs>
   <g transform="translate(11,11)">
     <circle class="background" r="10.5"/>
-    <path class="foreground" d="m -6,0 a 2,2 0 0 1 2,-2 v -1 a 4,4 0 0 1 8,0 v 1 a 2,2 0 0 1 2,2 v 4 a 2,2 0 0 1 -2,2 h -8 a 2,2 0 0 1 -2,-2 z m 4,-2 h 4 v -1 a 2,2 0 0 0 -4,0 z m 2,2.5 a 1.5,1.5 0 0 0 0,3 a 1.5,1.5 0 0 0 0,-3 z"/>
+    <path class="symbol" d="m -6,0 a 2,2 0 0 1 2,-2 v -1 a 4,4 0 0 1 8,0 v 1 a 2,2 0 0 1 2,2 v 4 a 2,2 0 0 1 -2,2 h -8 a 2,2 0 0 1 -2,-2 z m 4,-2 h 4 v -1 a 2,2 0 0 0 -4,0 z m 2,2.5 a 1.5,1.5 0 0 0 0,3 a 1.5,1.5 0 0 0 0,-3 z"/>
   </g>
 </svg>

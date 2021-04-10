@@ -6,13 +6,13 @@
     </linearGradient>
     <style type="text/css">
       .background { fill: url(#background); stroke: #1976D2 /* Blue 700 */ }
-      .foreground { fill: #0D47A1 /* Blue 900 */ }
+      .symbol { fill: #0D47A1 /* Blue 900 */ }
     </style>
   </defs>
   <g transform="translate(8,8)">
     <circle class="background" r="7.5"/>
 
-    <g class="foreground">
+    <g class="symbol">
       <rect x="-4" y="-4" width="3" height="8"/>
       <rect x="1" y="-4" width="3" height="8"/>
     </g>
