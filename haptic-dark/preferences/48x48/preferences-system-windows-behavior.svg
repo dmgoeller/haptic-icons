@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="window-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+      <stop offset="100%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+    </linearGradient>
+    <linearGradient id="titlebar-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+      <stop offset="100%" style="stop-color:#757575"/> <!-- Gray 600 -->
+    </linearGradient>
+    <linearGradient id="titlebar-button" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <style type="text/css">
+      .symbol { fill: #424242 }
+      .window-border { fill: none }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Window -->
+  <path style="fill:url(#window-background)" d="m 5,6 a 2,2 0 0 0 -2,2 v 32 a 2,2 0 0 0 2,2 h 38 a 2,2 0 0 0 2,-2 v -32 a 2,2 0 0 0 -2,-2"/>
+  <path class="window-border" d="m 4,14 h -1 v 26 a 2,2 0 0 0 2,2 h 38 a 2,2 0 0 0 2,-2 v -26 h -1 v 26 a 1,1 0 0 1 -1,1 h -38 a 1,1 0 0 1 -1,-1"/>
+
+  <path style="fill:url(#titlebar-background)" d="m 5,6 a 2,2 0 0 0 -2,2 v 6 h 42 v -6 a 2,2 0 0 0 -2,-2"/>
+  <path style="fill:url(#titlebar-button)"
+        d="m 5,10 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0
+           m 6,0 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0
+           m 6,0 a 2,2 0 0 1 4,0 a 2,2 0 0 1 -4,0"/>
+
+  <path class="lighten" d="m 5,6 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 38 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 5,41 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 38 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(12,16)">
+    <path d="m 8,2 a 4,4 0 0 0 0,8 h 8 a 4,4 0 0 0 0,-8 z m 0,1 h 8 a 3,3 0 0 1 0,6 h -8 a 3,3 0 0 1 0,-6 z"/>
+    <circle cx="8" cy="6" r="2"/>
+    <path d="m 8,13 a 4,4 0 0 0 0,8 h 8 a 4,4 0 0 0 0,-8 z m 8,1.5 a 2.5,2.5 0 0 1 0,5 a 2.5,2.5 0 0 1 0,-5 z"/>
+  </g>
+</svg>
