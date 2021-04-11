@@ -4,12 +4,20 @@
       <stop offset="0" style="stop-color:#FBC02D"/> <!-- Yellow 700 -->
       <stop offset="100%" style="stop-color:#F57F17"/> <!-- Yellow 900 -->
     </radialGradient>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #808080 }
+    </style>
   </defs>
-  <g style="fill:url(#star)" transform="translate(12,12.71)">
-    <path d="M  2.69, -3.71 l -1.76, -5.40 a 1,1 0 0 0 -1.90, 0
+  <g transform="translate(12,12.71)">
+    <path class="ColorScheme-Text" style="fill:currentColor;fill-opacity:0.5"
+          d="M  2.69, -3.71 l -1.76, -5.40 a 1,1 0 0 0 -1.90, 0
              L -2.69, -3.71 h -5.68        a 1,1 0 0 0 -0.59, 1.80
              L -4.35,  1.40 l -1.76,  5.40 a 1,1 0 0 0  1.54, 1.12
              L     0,  4.59 l  4.60,  3.33 a 1,1 0 0 0  1.54,-1.12
              L  4.35,  1.40 l  4.60, -3.33 a 1,1 0 0 0 -0.59,-1.80"/>
+    <path style="fill:url(#star)"
+          d="M     0,  4.59 L  0,-9.795    a 1,1 0 0 0 -0.965,0.695
+             L -2.69, -3.71 h -5.68        a 1,1 0 0 0 -0.59, 1.80
+             L -4.35,  1.40 l -1.76,  5.40 a 1,1 0 0 0  1.54, 1.12"/>
   </g>
 </svg>
