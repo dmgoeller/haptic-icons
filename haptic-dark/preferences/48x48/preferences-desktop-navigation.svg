@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="compass-background" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#616161"/> <!-- Gray 700 -->
+      <stop offset="100%" style="stop-color:#424242"/> <!-- Gray 800 -->
+    </linearGradient>
+    <linearGradient id="compass-border" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <style type="text/css">
+      .compass-needle-north { fill: #EF5350 /* Red 400 */ }
+      .compass-needle-south { fill: white }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill: black; fill-opacity: 0.125 }
+      .darken-slightly { fill: black; fill-opacity: 0.0625 }
+    </style>
+  </defs>
+  <g transform="translate(24,24)">
+    <circle style="fill:url(#compass-background)" r="20"/>
+    <path style="fill:url(#compass-border)" d="m 0,-20 a 20,20 0 0 0 0,40 a 20,20 0 0 0 0,-40 m 0,2 a 18,18 0 0 1 0,36 a 18,18 0 0 1 0,-36"/>
+    <path class="lighten" d="m 20,0 a 20,20 0 0 0 -40,0 a 20,19 0 0 1 40,0"/>
+    <path class="darken" d="m 20,0 a 20,20 0 0 1 -40,0 a 20,19 0 0 0 40,0"/>
+    <path class="darken-slightly" d="m 18,0 a 18,18 0 0 0 -36,0 a 18,17 0 0 1 36,0"/>
+
+    <g transform="rotate(-45)">
+      <path class="darken" d="m -16,1 l 16,5.33 16,-5.33 -16,-5.33"/>
+      <path class="compass-needle-south" d="m 0,-5.33 l -16,5.33 16,5.33"/>
+      <path class="compass-needle-north" d="m 0,-5.33 l 16,5.33 -16,5.33"/>
+      <path class="darken" d="m -16,0 l 16,5.33 16,-5.33"/>
+    </g>
+  </g>
+</svg>
