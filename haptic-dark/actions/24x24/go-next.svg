@@ -5,7 +5,6 @@
     </style>
   </defs>
   <g class="ColorScheme-Text" style="fill:none;stroke:currentColor">
-    <path style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round"
-          d="M 6,12 l 12,0 m -6,-6 l 6,6 -6,6"/>
+    <path style="stroke-width:2;stroke-linecap:round;stroke-linejoin:round" d="M 8.5,5 l 7,7 -7,7"/>
   </g>
 </svg>
