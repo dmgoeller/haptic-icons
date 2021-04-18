@@ -9,14 +9,12 @@
       .symbol { fill: #0D47A1 /* Blue 900 */ }
     </style>
   </defs>
-  <g transform="translate(11,11)">
+  <g style="opacity:0.75" transform="translate(11,11)">
     <circle class="background" r="10.5"/>
-    <path class="symbol"
-          transform="scale(0.8)"
-          d="M  2.69, -3.71 l -1.76, -5.40 a 1,1 0 0 0 -1.90, 0
-             L -2.69, -3.71 h -5.68        a 1,1 0 0 0 -0.59, 1.80
-             L -4.35,  1.40 l -1.76,  5.40 a 1,1 0 0 0  1.54, 1.12
-             L     0,  4.59 l  4.60,  3.33 a 1,1 0 0 0  1.54,-1.12
-             L  4.35,  1.40 l  4.60, -3.33 a 1,1 0 0 0 -0.59,-1.80"/>
+
+    <g class="symbol">
+      <path style="fill-opacity:0.5" d="M -4,0 a 4,4 0 0 0 8,0 a 4,4 0 0 0 -8,0 M -3.5,1 v -2 h -3 a 1,1 0 0 0 0,2"/>
+      <path d="M -3.5,6.06 A 7,7 0 1 0 -3.5,-6.06 L -2.5,-4.33 A 5,5 0 1 1 -2.5,4.33 M 6.5,-1 v 2 h 2 a 1,1 0 0 0 0,-2"/>
+    </g>
   </g>
 </svg>

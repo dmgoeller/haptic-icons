@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 8 8">
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="0" y2="100%">
-      <stop offset="0%" style="stop-color:#BBDEFB"/> <!-- Blue 100 -->
-      <stop offset="100%" style="stop-color:#90CAF9"/> <!-- Blue 200 -->
+      <stop offset="0%" style="stop-color:#E53935"/> <!-- Red 600 -->
+      <stop offset="100%" style="stop-color:#D32F2F"/> <!-- Red 700 -->
     </linearGradient>
     <style type="text/css">
       .background { fill: url(#background) }
-      .symbol { fill: #0D47A1; /* Blue 900 */ }
+      .symbol { fill: none; stroke: white; stroke-linecap: round }
     </style>
   </defs>
   <rect class="background" x="0" y="0" width="8" height="8" rx="1" ry="1"/>
-  <path class="symbol" d="m 2,1 a 1,1 0 0 0 0,2 h 1.6 l -2.4,2.4 a 1,1 0 0 0 1.4,1.4 l 2.4,-2.4 v 1.6 a 1,1 0 0 0 2,0 v -4 a 1,1 0 0 0 -1,-1"/>
+  <path class="symbol" d="M 2,2 l 4,4 M 2,6 l 4,-4"/>
 </svg>

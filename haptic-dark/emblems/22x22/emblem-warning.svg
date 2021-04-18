@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#FFEB3B"/> <!-- Yellow 500 -->
+      <stop offset="100%" style="stop-color:#FBC02D"/> <!-- Yellow 700 -->
+    </linearGradient>
+    <style type="text/css">
+      .background { fill: url(#background); stroke: #7D6819 /* Blue 900 */ }
+      .symbol { fill: black; fill-opacity: 0.875 }
+    </style>
+  </defs>
+  <path class="background" d="M 11,19.5 h 8 a 2,2 0 0 0 1.73,-3 l -8,-13.83 a 2,2 0 0 0 -3.46,0 l -8,13.83 a 2,2 0 0 0 1.73,3 z"/>
+  <path class="symbol" d="M 9.5,7.5 a 1.5,1.5 0 0 1 3,0 v 4 a 1.5,1.5 0 0 1 -3,0 M 11,15 a 1.5,1.5 0 0 1 0,3 a 1.5,1.5 0 0 1 0,-3"/>
+</svg>
