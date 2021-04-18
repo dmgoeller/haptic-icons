@@ -8,4 +8,4 @@ This icon theme contains more than 400 individual icons and more than 100 origin
 
 ## Installation
 
-This icon theme is available at https://store.kde.org. It can be installed from there or via KDE system settings. To manually install the icons, download the `haptic-dark`, `haptic-light` and `material-design` folders and copy them to `~/.local/share/icons` or `/usr/share/icons`. 
+This icon theme is available at [https://store.kde.org](https://store.kde.org/p/1502575/). It can be installed from there or via KDE system settings. To manually install the icons, copy the _haptic-dark_, _haptic-light_ and _material-design_ folders to `~/.local/share/icons` or `/usr/share/icons`. 
