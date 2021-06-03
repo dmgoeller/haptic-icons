@@ -15,7 +15,7 @@ SmallDefault=24
 SmallSizes=16,24,32,48
 ToolbarDefault=24
 ToolbarSizes=16,22,24,32
-Directories=actions/22x22,actions/48x48,actions/32x32,actions/24x24,apps/22x22,apps/96x96,apps/48x48,apps/32x32,apps/24x24,preferences/192x192,preferences/96x96,preferences/48x48,preferences/32x32,preferences/24x24,preferences/22x22,apps/vendor,categories/48x48,categories/22x22,categories/32x32,categories/24x24,devices/22x22,devices/48x48,devices/32x32,devices/24x24,emblems/24x24,emblems/22x22,emblems/16x16,emblems/8x8,mimetypes/22x22,mimetypes/64x64,mimetypes/48x48,mimetypes/32x32,mimetypes/24x24,places/22x22,places/64x64,places/48x48,places/32x32,places/24x24,status/22x22,status/64x64,status/32x32,status/24x24
+Directories=actions/22x22,actions/48x48,actions/32x32,actions/24x24,apps/22x22,apps/96x96,apps/48x48,apps/32x32,apps/24x24,preferences/192x192,preferences/96x96,preferences/48x48,preferences/32x32,preferences/24x24,preferences/22x22,apps/vendor,categories/48x48,categories/22x22,categories/32x32,categories/24x24,devices/22x22,devices/48x48,devices/32x32,devices/24x24,emblems/24x24,emblems/22x22,emblems/16x16,emblems/8x8,mimetypes/22x22,mimetypes/64x64,mimetypes/48x48,mimetypes/32x32,mimetypes/24x24,places/22x22,places/64x64,places/48x48,places/32x32,places/24x24,status/22x22,status/48x48,status/32x32,status/24x24
 
 [actions/22x22]
 Context=Actions
