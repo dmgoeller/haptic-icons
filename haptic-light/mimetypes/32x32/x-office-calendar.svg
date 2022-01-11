@@ -10,7 +10,7 @@
     </linearGradient>
     <style type="text/css">
       .sheet-border { fill: #BDBDBD /* Gray 400 */ }
-      .date { fill: #616161 /* Gray 800 */ }
+      .dates { fill: #757575 /* Gray 600 */ }
       .lighten-strongly { fill: white; fill-opacity: 0.25 }
       .darken { fill:black; fill-opacity: 0.125 }
     </style>
@@ -23,8 +23,12 @@
   <path class="darken" d="m 6,27 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 20 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
   <rect class="darken" x="4" y="10" width="24" height="2"/>
 
-  <path class="date" d="m 13,16.31 q 0.41,-0.16 0.84,-0.37 0.45,-0.23 0.87,-0.48 0.42,-0.27 0.8,-0.55 0.39,-0.29 0.7,-0.61 h 1.46 v 9.7 h -2.09 v -6.99 q -0.42,0.28 -0.94,0.52 -0.52,0.23 -1.01,0.39 z"/>
-  <!--
-  <text class="date" style="font-family:Ubuntu;font-size:14px;font-weight:bold;text-anchor:middle" x="16" y="24">1</text>
-  -->
+  <g class="dates">
+    <rect x="14" y="14" width="4" height="4"/>
+    <rect x="20" y="14" width="4" height="4"/>
+
+    <rect x="8" y="20" width="4" height="4"/>
+    <rect x="14" y="20" width="4" height="4"/>
+    <rect x="20" y="20" width="4" height="4"/>
+  </g>
 </svg>
