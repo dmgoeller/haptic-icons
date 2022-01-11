@@ -14,14 +14,14 @@
   </defs>
 
   <!-- Folder -->
-  <path class="folder-back" d="m 4,10 a 2,2 0 0 1 2,-2 h 12 c 2,0 2,0 4,2 l 2,2 h 18 a 2,2 0 0 1 2,2 v 4 a 2,2 0 0 0 -2,-2 h -36 a 2,2 0 0 0 -2,2"/>
-  <path class="darken" d="m 6,15 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 36 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
-  <rect class="folder-front" x="4" y="16" width="40" height="24" rx="2" ry="2"/>
-  <path class="lighten" d="m 6,16 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 36 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
-  <path class="darken" d="m 6,39 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+  <path class="folder-back" d="m 4,11 a 2,2 0 0 1 2,-2 h 12 c 2,0 2,0 4,2 l 2,2 h 18 a 2,2 0 0 1 2,2 v 2 a 2,2 0 0 0 -2,-2 h -36 a 2,2 0 0 0 -2,2"/>
+  <path class="darken" d="m 6,14 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 36 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
+  <rect class="folder-front" x="4" y="15" width="40" height="24" rx="2" ry="2"/>
+  <path class="lighten" d="m 6,15 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 36 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 6,38 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
 
   <!-- Symbol (18x18) -->
-  <path class="symbol"
+  <path class="symbol" transform="translate(0,-1)"
         d="M 30 19 A 3 3 0 0 0 27 22 A 3 3 0 0 0 27.08 22.67
            L 20.29 26.06 A 3 3 0 0 0 18 25 A 3 3 0 0 0 15 28 A 3 3 0 0 0 18 31 A 3 3 0 0 0 20.29 29.94
            L 27.08 33.33 A 3 3 0 0 0 27 34 A 3 3 0 0 0 30 37 A 3 3 0 0 0 33 34 A 3 3 0 0 0 30 31 A 3 3 0 0 0 27.71 32.06

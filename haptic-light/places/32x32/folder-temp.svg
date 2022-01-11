@@ -12,10 +12,10 @@
     </style>
   </defs>
   <g style="opacity:0.5">
-    <path class="folder-back" d="m 3,7 a 2,2 0 0 1 2,-2 h 6 c 2,0 2,0 4,2 l 1,1 h 11 a 2,2 0 0 1 2,2 v 3 a 2,2 0 0 0 -2,-2 h -22 a 2,2 0 0 0 -2,2"/>
-  <path class="darken" d="m 5,10 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 22 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
-  <rect class="folder-front" x="3" y="11" width="26" height="16" rx="2" ry="2"/>
-  <path class="lighten" d="m 5,11 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 22 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
-  <path class="darken" d="m 5,26 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+    <path class="folder-back" d="m 3,8 a 2,2 0 0 1 2,-2 h 6 c 2,0 2,0 4,2 l 1,1 h 11 a 2,2 0 0 1 2,2 v 2 a 2,2 0 0 0 -2,-2 h -22 a 2,2 0 0 0 -2,2"/>
+    <path class="darken" d="m 5,9 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 22 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
+    <rect class="folder-front" x="3" y="10" width="26" height="16" rx="2" ry="2"/>
+    <path class="lighten" d="m 5,10 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 22 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+    <path class="darken" d="m 5,25 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 22 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
   </g>
 </svg>
