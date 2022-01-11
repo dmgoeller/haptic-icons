@@ -11,10 +11,9 @@
       .darken { fill: black; fill-opacity: 0.125 }
     </style>
   </defs>
-  <path class="folder-back" d="m 4,8 a 2,2 0 0 1 2,-2 h 10 c 2,0 2,0 4,2 l 4,4 h 18 a 2,2 0 0 1 2,2 v 24 a 2,2 0 0 1 -2,2 h -36 a 2,2 0 0 1 -2,-2 z"/>
-  <path class="darken" d="m 6,15 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 36 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
-
-  <rect class="folder-front" x="4" y="16" width="40" height="26" rx="2" ry="2"/>
-  <path class="lighten" d="m 4,18 a 2,2 0 0 1 2,-2 h 36 a 2,2 0 0 1 2,2 a 2,1 0 0 0 -2,-1 h -36 a 2,1 0 0 0 -2,1 z"/>
-  <path class="darken" d="m 6,42 a 2,2 0 0 1 -2,-2 a 2,1 0 0 0 2,1 h 36 a 2,1 0 0 0 2,-1 a 2,2 0 0 1 -2,2 z"/>
+  <path class="folder-back" d="m 2,9 a 2,2 0 0 1 2,-2 h 13 c 2,0 2,0 4,2 l 3,3 h 20 a 2,2 0 0 1 2,2 v 2 a 2,2 0 0 0 -2,-2 h -40 a 2,2 0 0 0 -2,2"/>
+  <path class="darken" d="m 6,14 a 3,3 0 0 0 -2,0.76 v 2.24 a 2,2 0 0 1 2,-2 h 36 a 2,2 0 0 1 2,2 v -2.24 a 3,3 0 0 0 -2,-0.76"/>
+  <rect class="folder-front" x="2" y="14" width="44" height="27" rx="2" ry="2"/>
+  <path class="lighten" d="m 4,14 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 40 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 4,40 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
 </svg>
