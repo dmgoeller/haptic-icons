@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <!-- mic (rounded) -->
+    <g style="opacity:0.5">
+      <path d="M 12 2 A 3 3 0 0 0 9.012 4.783 L 15 10.77 L 15 5 A 3 3 0 0 0 12 2 z M 9 7.592 L 9 11 A 3 3 0 0 0 12 14 A 3 3 0 0 0 14.31 12.91 L 9 7.592 z "/>
+      <path d="M 6.18 11 C 5.57 11 5.09 11.54 5.18 12.14 C 5.67 15.14 8.07 17.49 11.09 17.92 L 11.09 20 C 11.09 20.55 11.54 21 12.09 21 C 12.64 21 13.09 20.55 13.09 20 L 13.09 17.92 C 14.7 17.69 16.12 16.9 17.18 15.78 L 15.77 14.36 C 14.85 15.36 13.55 16 12.09 16 C 9.62 16 7.57 14.2 7.16 11.85 C 7.08 11.36 6.67 11 6.18 11 z M 18 11 C 17.51 11 17.1 11.36 17.02 11.85 C 16.97 12.11 16.9 12.35 16.82 12.59 L 18.35 14.12 C 18.66 13.51 18.89 12.84 19 12.14 C 19.1 11.54 18.61 11 18 11 z "/>
+    </g>
+
+    <!-- Strikethrough -->
+    <path class="ColorScheme-Text" style="fill:currentColor" d="m 4.54,3.13 a 0.5,0.5 0 0 0 -1.41,1.41 l 16.33,16.33 a 0.5,0.5 0 0 0 1.41,-1.41 z"/>
+  </g>
+</svg>

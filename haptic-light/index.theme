@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Haptic Light
 Comment=Icons for light themes
-Inherits=material-design,breeze,hicolor
+Inherits=material-design-light,breeze,hicolor
 FollowsColorScheme=true
 DialogDefault=64
 DialogSizes=16,24,32,48,64
@@ -15,7 +15,7 @@ SmallDefault=24
 SmallSizes=16,24,32,48
 ToolbarDefault=24
 ToolbarSizes=16,22,24,32
-Directories=actions/22x22,actions/48x48,actions/32x32,actions/24x24,apps/22x22,apps/96x96,apps/48x48,apps/32x32,apps/24x24,preferences/192x192,preferences/96x96,preferences/48x48,preferences/32x32,preferences/24x24,preferences/22x22,apps/vendor,categories/48x48,categories/22x22,categories/32x32,categories/24x24,devices/22x22,devices/48x48,devices/32x32,devices/24x24,emblems/24x24,emblems/22x22,emblems/16x16,emblems/8x8,mimetypes/22x22,mimetypes/64x64,mimetypes/48x48,mimetypes/32x32,mimetypes/24x24,places/22x22,places/64x64,places/48x48,places/32x32,places/24x24,status/22x22,status/48x48,status/32x32,status/24x24
+Directories=actions/22x22,actions/48x48,actions/32x32,actions/24x24,actions/symbolic,apps/22x22,apps/96x96,apps/48x48,apps/32x32,apps/24x24,preferences/96x96,preferences/48x48,preferences/32x32,preferences/24x24,preferences/22x22,preferences/symbolic,apps/vendor,categories/22x22,categories/48x48,categories/32x32,categories/24x24,categories/symbolic,devices/22x22,devices/48x48,devices/32x32,devices/24x24,devices/symbolic,emblems/24x24,emblems/22x22,emblems/16x16,emblems/8x8,mimetypes/22x22,mimetypes/64x64,mimetypes/48x48,mimetypes/32x32,mimetypes/24x24,places/22x22,places/64x64,places/48x48,places/32x32,places/24x24,places/symbolic,status/22x22,status/48x48,status/32x32,status/24x24,status/symbolic
 
 [actions/22x22]
 Context=Actions
@@ -25,8 +25,8 @@ Size=22
 [actions/24x24]
 Context=Actions
 Type=Scalable
-Size=24
 MinSize=1
+Size=24
 
 [actions/32x32]
 Context=Actions
@@ -38,6 +38,12 @@ Context=Actions
 Type=Scalable
 Size=48
 
+[actions/symbolic]
+Context=Actions
+Type=Scalable
+MaxSize=512
+Size=24
+
 [apps/22x22]
 Context=Applications
 Type=Fixed
@@ -46,8 +52,8 @@ Size=22
 [apps/24x24]
 Context=Applications
 Type=Scalable
-Size=24
 MinSize=1
+Size=24
 
 [apps/32x32]
 Context=Applications
@@ -77,8 +83,8 @@ Size=22
 [preferences/24x24]
 Context=Applications
 Type=Scalable
-Size=24
 MinSize=1
+Size=24
 
 [preferences/32x32]
 Context=Applications
@@ -95,10 +101,11 @@ Context=Applications
 Type=Scalable
 Size=96
 
-[preferences/192x192]
+[preferences/symbolic]
 Context=Applications
 Type=Scalable
-Size=192
+MaxSize=512
+Size=24
 
 [categories/22x22]
 Context=Categories
@@ -108,8 +115,8 @@ Size=22
 [categories/24x24]
 Context=Categories
 Type=Scalable
-Size=24
 MinSize=1
+Size=24
 
 [categories/32x32]
 Context=Categories
@@ -121,6 +128,11 @@ Context=Categories
 Type=Scalable
 Size=48
 
+[categories/symbolic]
+Context=Categories
+Type=Scalable
+Size=24
+
 [devices/22x22]
 Context=Devices
 Type=Fixed
@@ -129,8 +141,8 @@ Size=22
 [devices/24x24]
 Context=Devices
 Type=Scalable
-Size=24
 MinSize=1
+Size=24
 
 [devices/32x32]
 Context=Devices
@@ -141,6 +153,12 @@ Size=32
 Context=Devices
 Type=Scalable
 Size=48
+
+[devices/symbolic]
+Context=Devices
+Type=Scalable
+MaxSize=512
+Size=24
 
 [emblems/8x8]
 Context=Emblems
@@ -197,8 +215,8 @@ Size=22
 [places/24x24]
 Context=Places
 Type=Scalable
-Size=24
 MinSize=1
+Size=24
 
 [places/32x32]
 Context=Places
@@ -214,6 +232,11 @@ Size=48
 Context=Places
 Type=Scalable
 Size=64
+
+[places/symbolic]
+Context=Places
+Type=Scalable
+Size=24
 
 [status/22x22]
 Content=Status
@@ -234,3 +257,9 @@ Size=32
 Context=Status
 Type=Scalable
 Size=48
+
+[status/symbolic]
+Content=Status
+Type=Scalable
+MaxSize=512
+Size=24

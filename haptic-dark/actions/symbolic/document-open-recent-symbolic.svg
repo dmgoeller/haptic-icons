@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #D8D8D8 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <!-- Document -->
+    <path d="M 6 2 A 2 2 0 0 0 4 4 L 4 20 A 2 2 0 0 0 6 22 L 10.72 22 A 8 8 0 0 1 8 16 A 8 8 0 0 1 13.56 8.391 A 2 2 0 0 1 13 7 L 13 2 L 6 2 z
+             M 19.87 9 A 8 8 0 0 1 20 9.08 L 20 9 L 19.87 9 z"/>
+    <path d="m 14,2 v 4 a 2,2 0 0 0 2,2 h 4"/>
+
+    <!-- Clock -->
+    <path transform="translate(16,16)"
+          d="M -6,0 a 6,6 0 0 0 12,0 a 6,6 0 0 0 -12,0
+             M -1,-4 a 1,1 0 0 1 2,0 v 3.6 l 1.8,1.8 a 1,1 0 0 1 -1.4,1.4 l -2.1,-2.1 c -0.15,-0.15 -0.3,-0.3 -0.3,-0.6"/>
+  </g>
+</svg>

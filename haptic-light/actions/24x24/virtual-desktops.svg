@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <rect x="2" y="4" width="9" height="7"/>
+    <g style="fill-opacity:0.625">
+      <rect x="2" y="13" width="9" height="7"/>
+      <rect x="13" y="4" width="9" height="7"/>
+      <rect x="13" y="13" width="9" height="7"/>
+    </g>
+  </g>
+</svg>

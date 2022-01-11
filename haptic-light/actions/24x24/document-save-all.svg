@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round">
+    <path transform="translate(18,4)" d="M 0,-3 v 6 M -3,-1.5 l 6,3 M -3,1.5 l 6,-3"/>
+  </g>
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <path d="M 11.293,14.707 a 1,1 0 0 0 1.414,0 l 4,-4 a 1,1 0 0 0 -1.414,-1.414 l -2.293,2.293
+             v -4.586 a 1,1 0 0 0 -2,0 v 4.586 l -2.293,-2.293 a 1,1 0 0 0 -1.414,1.414"/>
+    <path d="m 4,8 a 2,2 0 0 0 -2,2 v 8 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -8 a 2,2 0 0 0 -2,-2 v 10 h -16 z"/>
+  </g>
+</svg>

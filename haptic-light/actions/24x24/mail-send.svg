@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(2,2)">
+    <path d="M 0,7.5 20,0 12.5,20 7.5,15 17.5,2.5 5,12.5"/>
+
+    <!-- Fold -->
+    <path d="M 7.5,15 6.25,17.5 8.125,15.625"/>
+    <path  d="M 5,12.5 6.5625,11.25 7.5,15 6.25,17.5"/>
+
+    <!-- Filled fold -->
+    <!--
+    <path style="fill-opacity:0.5" d="M 7.5,15 6.25,17.5 8.125,15.625"/>
+    <path style="fill-opacity:0.75" d="M 6.25,17.5 5,12.5 17.5,2.5 7.5,15"/>
+    -->
+  </g>
+</svg>

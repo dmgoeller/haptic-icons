@@ -5,7 +5,7 @@
       <stop offset="100%" style="stop-color:#FFF59D"/> <!-- Yellow 200 -->
     </radialGradient>
     <style id="current-color-scheme" type="text/css">
-      .ColorScheme-Text { color: #808080 }
+      .ColorScheme-Text { color: #D8D8D8 }
     </style>
   </defs>
   <g transform="translate(12,12.71)">

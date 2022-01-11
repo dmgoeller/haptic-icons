@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <!-- Pins -->
+    <path d="M 7,1 v 2 h 1 v -2 M 10,1 v 2 h 1 v -2 M 13,1 v 2 h 1 v -2 M 16,1 v 2 h 1 v -2
+             M 1,7 v 1 h 2 v -1 M 1,10 v 1 h 2 v -1 M 1,13 v 1 h 2 v -1 M 1,16 v 1 h 2 v -1
+             M 21,7 v 1 h 2 v -1 M 21,10 v 1 h 2 v -1 M 21,13 v 1 h 2 v -1 M 21,16 v 1 h 2 v -1
+             M 7,21 v 2 h 1 v -2 M 10,21 v 2 h 1 v -2 M 13,21 v 2 h 1 v -2 M 16,21 v 2 h 1 v -2"/>
+
+    <!-- Chip -->
+    <path style="fill-opacity:0.5"
+          d="m 4,5 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 14 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
+    <path d="m 5,3 a 2,2 0 0 0 -2,2 v 14 a 2,2 0 0 0 2,2 h 14 a 2,2 0 0 0 2,-2 v -14 a 2,2 0 0 0 -2,-2 z
+             m -1,2 a 1,1 0 0 1 1,-1 h 14 a 1,1 0 0 1 1,1 v 14 a 1,1 0 0 1 -1,1 h -14 a 1,1 0 0 1 -1,-1"/>
+  </g>
+</svg>

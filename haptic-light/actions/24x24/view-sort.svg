@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <!-- Arrow down -->
+    <path d="m 4,16 h -1.79 c -0.45,0 -0.67,0.54 -0.36,0.85 l 2.79,2.79 c 0.2,0.2 0.52,0.2 0.72,0 l 2.79,-2.79 c 0.31,-0.31 0.1,-0.85 -0.36,-0.85 h -1.79
+             v -5 a 1,1 0 0 0 -2,0"/>
+
+    <!-- Arrow up -->
+    <path d="m 10,8 h 1.79 c 0.45,0 0.67,-0.54 0.36,-0.85 l -2.79,-2.79 c -0.2,-0.2 -0.52,-0.2 -0.72,0 l -2.79,2.79 c -0.31,0.31 -0.09,0.85 0.36,0.85 h 1.79
+             v 5 a 1,1 0 0 0 2,0 z"/>
+
+    <!-- Items -->
+    <g transform="translate(14,7)">
+      <path d="m 1,2 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2 "/>
+      <path d="m 1,6 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2 "/>
+      <path d="m 1,10 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2 "/>
+    </g>
+  </g>
+</svg>

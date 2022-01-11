@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g transform="translate(12,12)">
+    <path class="ColorScheme-Text" style="fill:currentColor" d="M 6,0 A 6,6 0 1 1 4.24,-4.24 L 2,-2 8,-2 8,-8 5.66,-5.66 A 8,8 0 1 0 8,0"/>
+    <circle style="fill:#FB8C00" cx="8" cy="8" r="2"/> <!-- Orange 600 -->
+  </g>
+</svg>

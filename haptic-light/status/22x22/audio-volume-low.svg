@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(-1,-1)">
+    <!-- Speaker -->
+    <path d="m 4,9 a 1,1 0 0 0 -1,1 v 4 a 1,1 0 0 0 1,1 h 3 l 3.5,3.5 a 1,1 0 0 0 1.5,-0.865 v -11.27 a 1,1 0 0 0 -1.5,-0.865 l -3.5,3.5 z"/>
+
+    <!-- Sound waves -->
+    <path d="m 14.35,6.65 a 0.5,0.5 0 0 0 -0.7,0.7 a 6.6,6.6 0 0 1 0,9.3 a 0.5,0.5 0 0 0 0.7,0.7 a 7.6,7.6 0 0 0 0,-10.7"/>
+    <path style="opacity:0.5" d="m 16.35,4.65 a 0.5,0.5 0 0 0 -0.7,0.7 a 9.4,9.4 0 0 1 0,13.3 a 0.5,0.5 0 0 0 0.7,0.7 a 10.4,10.4 0 0 0 0,-14.7"/>
+    <path style="opacity:0.5" d="m 18.35,2.65 a 0.5,0.5 0 0 0 -0.7,0.7 a 12.2,12.2 0 0 1 0,17.3 a 0.5,0.5 0 0 0 0.7,0.7 a 13.2,13.2 0 0 0 0,-18.7"/>
+  </g>
+</svg>

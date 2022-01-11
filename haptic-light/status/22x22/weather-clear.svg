@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor" transform="translate(11,11)">
+    <circle r="5"/>
+    <g style="fill-opacity:0.75">
+      <path d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+      <path transform="rotate(45)" d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+      <path transform="rotate(90)" d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+      <path transform="rotate(135)" d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+      <path transform="rotate(180)" d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+      <path transform="rotate(225)" d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+      <path transform="rotate(270)" d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+      <path transform="rotate(315)" d="M -.5,-9.5 a .5,.5 0 0 1 1,0 v 2 a .5,.5 0 0 1 -1,0 z"/>
+    </g>
+  </g>
+</svg>

@@ -1,1 +1,14 @@
-../../../haptic-dark/apps/22x22/plasma.svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 22">
+  <defs>
+    <style id="current-color-scheme" type="text/css">
+      .ColorScheme-Text { color: #484848 }
+    </style>
+  </defs>
+  <g class="ColorScheme-Text" style="fill:currentColor">
+    <circle cx="7" cy="4" r="1"/>
+    <circle cx="4.5" cy="10.5" r="1.5"/>
+    <circle cx="9" cy="17" r="2"/>
+
+    <path d="m 12,5 l 2,-2 5,5 -5,5 -2,-2 3,-3 z"/>
+  </g>
+</svg>
