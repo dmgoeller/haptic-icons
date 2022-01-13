@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="cover" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#A1887F"/> <!-- Brown 300 -->
+      <stop offset="100%" style="stop-color:#8D6E63"/> <!-- Brown 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .tab1 { fill: #FFD54F } /* Amber 300 */
+      .tab2 { fill: #AED581 } /* Light green 300 */
+      .tab3 { fill: #7986CB } /* Indigo 300 */
+      .symbol { fill: black; fill-opacity: 0.375 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill:black; fill-opacity: 0.125 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Cover -->
+  <path style="fill:url(#cover)" d="M 9,4 a 1,1 0 0 0 -1,1 v 38 a 1,1 0 0 0 1,1 h 27 v -30 h 4 v -8 a 2,2 0 0 0 -2,-2"/>
+  <path class="lighten" d="m 9,4 a 1,1 0 0 0 -1,1  h 30 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+  <path class="darken" d="m 8,43 a 1,1 0 0 0 1,1 h 27 v -1"/>
+
+  <!-- Tabs -->
+  <g transform="translate(36,14)">
+    <rect class="tab1" width="4" height="10"/>
+    <rect class="tab2" y="10" width="4" height="10"/>
+    <path class="tab3" d="m 0,20 v 10 h 2 a 2,2 0 0 0 2,-2 v -8"/>
+
+    <rect class="darken" y="10" width="4" height="1"/>
+    <rect class="darken" y="20" width="4" height="1"/>
+    <path class="darken-strongly" d="m 0,0 v 30 h 1 v -29 h 3 v -1"/>
+  </g>
+
+  <!-- Symbol -->
+  <g class="symbol" transform="translate(22,24)">
+    <path d="M 0,-10 a 10,10 0 0 0 0,20 a 10,10 0 0 0 0,-20 m 0,1 a 9,9 0 0 1 0,18 a 9,9 0 0 1 0,-18"/>
+    <g transform="scale(0.9)">
+      <circle cy="-3" r="3.75"/>
+      <path d="M -7.8,4.5 A 9,9 0 0 0 7.8,4.5 A 9,4.5 0 0 0 -7.8,4.5"/>
+    </g>
+  </g>
+</svg>

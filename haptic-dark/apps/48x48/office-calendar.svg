@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="binding" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E53935"/> <!-- Red 600 -->
+      <stop offset="100%" style="stop-color:#D32F2F"/> <!-- Red 700 -->
+    </linearGradient>
+    <linearGradient id="sheet" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#EEEEEE"/> <!-- Gray 200 -->
+      <stop offset="100%" style="stop-color:#E0E0E0"/> <!-- Gray 300 -->
+    </linearGradient>
+    <style type="text/css">
+      .dates { fill: #757575 /* Gray 600 */ }
+      .lighten-strongly { fill: white; fill-opacity: 0.25 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+  <path style="fill:url(#binding)" d="m 6,4 a 2,2 0 0 0 -2,2 v 8 h 40 v -8 a 2,2 0 0 0 -2,-2"/>
+  <path class="lighten-strongly" d="m 6,4 a 2,2 0 0 0 -2,2 a 2,1 0 0 1 2,-1 h 36 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+
+  <path style="fill:url(#sheet)" d="m 4,14 v 28 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 v -28"/>
+  <path class="darken" d="m 6,43 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 36 a 2,2 0 0 0 2,-2 a 2,1 0 0 1 -2,1"/>
+  <rect class="darken" x="4" y="13" width="40" height="2"/>
+
+  <g class="dates">
+    <rect x="16" y="21" width="4" height="4"/>
+    <rect x="22" y="21" width="4" height="4"/>
+    <rect x="28" y="21" width="4" height="4"/>
+    <rect x="34" y="21" width="4" height="4"/>
+
+    <rect x="10" y="27" width="4" height="4"/>
+    <rect x="16" y="27" width="4" height="4"/>
+    <rect x="22" y="27" width="4" height="4"/>
+    <rect x="28" y="27" width="4" height="4"/>
+    <rect x="34" y="27" width="4" height="4"/>
+
+    <rect x="10" y="33" width="4" height="4"/>
+    <rect x="16" y="33" width="4" height="4"/>
+    <rect x="22" y="33" width="4" height="4"/>
+    <rect x="28" y="33" width="4" height="4"/>
+    <rect x="34" y="33" width="4" height="4"/>
+  </g>
+</svg>

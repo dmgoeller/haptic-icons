@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="cover" x1="0" y1="0%" x2="0" y2="100%">
+      <stop offset="0%" style="stop-color:#A1887F"/> <!-- Brown 300 -->
+      <stop offset="100%" style="stop-color:#8D6E63"/> <!-- Brown 400 -->
+    </linearGradient>
+    <style type="text/css">
+      .tab1 { fill: #FFD54F } /* Amber 300 */
+      .tab2 { fill: #AED581 } /* Light green 300 */
+      .tab3 { fill: #7986CB } /* Indigo 300 */
+    </style>
+  </defs>
+
+  <!-- Cover -->
+  <path style="fill:url(#cover)" d="M 5,2 a 1,1 0 0 0 -1,1 v 18 a 1,1 0 0 0 1,1 h 12 v -15 h 3 v -3 a 2,2 0 0 0 -2,-2"/>
+
+  <!-- Tabs -->
+  <rect class="tab1" x="18" y="8" width="2" height="4"/>
+  <rect class="tab2" x="18" y="13" width="2" height="4"/>
+  <path class="tab3" d="m 18,18 v 4 a 2,2 0 0 0 2,-2 v -2"/>
+</svg>
