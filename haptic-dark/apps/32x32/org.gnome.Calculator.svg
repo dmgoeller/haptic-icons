@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="button-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#757575"/> <!-- Gray 600 -->
+      <stop offset="100%" style="stop-color:#616161"/> <!-- Gray 700 -->
+    </linearGradient>
+    <linearGradient id="equal-button-background" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F57C00"/> <!-- Orange 700 -->
+      <stop offset="100%" style="stop-color:#EF6C00"/> <!-- Orange 800 -->
+    </linearGradient>
+    <style type="text/css">
+      .button-text { fill: #E0E0E0 }
+      .lighten { fill: white; fill-opacity: 0.125 }
+      .darken { fill:black; fill-opacity: 0.125 }
+    </style>
+  </defs>
+
+  <!-- Plus -->
+  <g transform="translate(2,2)">
+    <path style="fill:url(#button-background)" d="m 2,0 a 2,2 0 0 0 -2,2 v 12 h 14 v -14"/>
+    <path class="lighten" d="m 2,0 a 2,2 0 0 0 -2,2 v 12 l 1,-1 v -11 a 1,1 0 0 1 1,-1 h 11 l 1,-1" />
+    <path class="darken" d="m 1,13 l -1,1 h 14 v -14 l -1,1 v 12"/>
+    <path class="darken" d="m 6,5 a 1,1 0 0 1 2,0 v 2 h 2 a 1,1 0 0 1 0,2 h -2 v 2 a 1,1 0 0 1 -2,0 v -2 h -2 a 1,1 0 0 1 0,-2 h 2"/>
+    <path class="button-text" d="m 6,4 a 1,1 0 0 1 2,0 v 2 h 2 a 1,1 0 0 1 0,2 h -2 v 2 a 1,1 0 0 1 -2,0 v -2 h -2 a 1,1 0 0 1 0,-2 h 2"/>
+  </g>
+  <!-- Minus -->
+  <g transform="translate(2,16)">
+    <path style="fill:url(#button-background)" d="m 0,0 v 12 a 2,2 0 0 0 2,2 h 12 v -14 z"/>
+    <path class="lighten" d="m 0,0 v 12 a 2,1 0 0 0 1,0.865 v -11.865 h 12 l 1,-1"/>
+    <path class="darken" d="m 2,13 a 2,1 0 0 1 -2,-1 a 2,2 0 0 0 2,2 h 12 v -14 l -1,1 v 12
+      "/>
+    <path class="darken" d="m 4,9 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2"/>
+    <path class="button-text" d="m 4,8 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2"/>
+  </g>
+  <!-- Equal -->
+  <g transform="translate(16,2)">
+    <path style="fill:url(#equal-button-background)" d="m 0,0 v 28 h 12 a 2,2 0 0 0 2,-2 v -24 a 2,2 0 0 0 -2,-2"/>
+    <path class="lighten" d="m 0,0 v 28 l 1,-1 v -26 h 11 a 2,1 0 0 1 2,1 a 2,2 0 0 0 -2,-2"/>
+    <path class="darken" d="m 1,27 l -1,1 h 12 a 2,2 0 0 0 2,-2 v -24 a 2,1 0 0 0 -1,-0.865 v 24.865 a 1,1 0 0 1 -1,1"/>
+    <path class="darken" d="M 4,14 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2 M 4,18 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2"/>
+    <path class="button-text" d="M 4,13 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2 M 4,17 a 1,1 0 0 1 0,-2 h 6 a 1,1 0 0 1 0,2"/>
+  </g>
+</svg>

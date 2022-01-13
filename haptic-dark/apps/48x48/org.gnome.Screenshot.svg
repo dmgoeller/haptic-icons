@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="monitor-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#BDBDBD"/> <!-- Gray 400 -->
+      <stop offset="100%" style="stop-color:#9E9E9E"/> <!-- Gray 500 -->
+    </linearGradient>
+    <linearGradient id="screen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00BCD4"/> <!-- Cyan 500 -->
+      <stop offset="100%" style="stop-color:#0D47A1"/> <!-- Blue 900 -->
+    </linearGradient>
+    <linearGradient id="screen-border" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#424242"/> <!-- Gray 800 -->
+      <stop offset="100%" style="stop-color:#212121"/> <!-- Gray 900 -->
+    </linearGradient>
+    <style type="text/css">
+      .symbol { fill: #E0E0E0 }
+      .monitor-stand { fill: #808080 }
+      .darken-strongly { fill: black; fill-opacity: 0.25 }
+    </style>
+  </defs>
+
+  <!-- Monitor -->
+  <path style="fill:url(#monitor-border)" d="m 4,7 a 2,2 0 0 0 -2,2 v 30 a 2,2 0 0 0 2,2 h 40 a 2,2 0 0 0 2,-2 v -30 a 2,2 0 0 0 -2,-2 z m 0,2 h 40 v 30 h -40 z"/>
+  <rect style="fill:url(#screen)" x="5" y="10" width="38" height="28"/>
+  <path style="fill:url(#screen-border)" d="m 4,9 v 30 h 40 v -30 z m 1,1 h 38 v 28 h -38"/>
+
+  <path class="monitor-stand" d="m 16,41 v 3 a 2,2 0 0 0 2,2 h 12 a 2,2 0 0 0 2,-2 v -3 z"/>
+  <rect class="darken-strongly" x="16" y="41" width="16" height="1"/>
+
+  <!-- Photo camera -->
+  <g class="symbol" transform="translate(12,12)">
+    <path d="M 4,4 a 2,2 0 0 0 -2,2 v 12 a 2,2 0 0 0 2,2 h 16 a 2,2 0 0 0 2,-2 v -12 a 2,2 0 0 0 -2,-2 h -3 l -2,-2 h -6 l -2,2
+             M 12,6 a 6,6 0 0 1 0,12 a 6,6 0 0 1 0,-12
+             M 12,8 a 4,4 0 0 0 0,8 a 4,4 0 0 0 0,-8"/>
+  </g>
+</svg>
